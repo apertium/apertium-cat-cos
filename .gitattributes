@@ -1,0 +1,15 @@
+* text=auto !eol
+/Makefile -text
+/apertium-cat-cos.cat-cos.dix -text
+/apertium-cat-cos.cat-cos.lrx -text
+/apertium-cat-cos.cat-cos.t1x -text
+/apertium-cat-cos.cat.dix -text
+/apertium-cat-cos.cos-cat.lrx -text
+/apertium-cat-cos.cos-cat.t1x -text
+/apertium-cat-cos.cos.dix -text
+/cat-cos.prob -text svneol=unset#unset
+cat/apertium-cat-cos.cat.dixtmp1 -text
+cat/update.sh -text
+/cos-cat.prob -text svneol=unset#unset
+/modes.xml -text
+texts/conte.cat.txt -text

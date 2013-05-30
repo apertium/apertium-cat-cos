@@ -1,0 +1,238 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"        c="Sustantiu"/>
+    <sdef n="np"       c="Nom propi"/>
+    <sdef n="pr"       c="Preposició"/>
+    <sdef n="adv"      c="Adverbi"/>
+    <sdef n="adj"      c="Adjectiu"/>
+    <sdef n="num"      c="Numeral"/>
+    <sdef n="cnjcoo"   c="Coordinating conjunction"/>
+    <sdef n="cnjsub"   c="Subordinating conjunction"/>
+    <sdef n="cnjadv"   c="Adverbial conjunction"/>
+    <sdef n="det"      c="Determinant"/>
+    <sdef n="prn"      c="Pronoun"/>
+    <sdef n="vblex"    c="Verb"/>
+    <sdef n="vbmod"    c="Modal verb"/>
+    <sdef n="vbser"    c="Verb 'ser'"/>
+    <sdef n="vbhaver"  c="Verb 'haver'"/>
+
+    <sdef n="ind"      c="Indefinit"/>
+    <sdef n="def"      c="Definit"/>
+    <sdef n="pro"      c="Proclític"/>
+    <sdef n="tn"       c="Tònic"/>
+    <sdef n="ref"      c="Reflexiu"/>
+    <sdef n="ant"      c="Antropònim"/>
+
+    <sdef n="inf"      c="Infinitiu"/>
+    <sdef n="pp"       c="Participiu"/>
+    <sdef n="pri"      c="Present d'indicatiu"/>
+
+    <sdef n="m"        c="Masculí"/>
+    <sdef n="f"        c="Feminí"/>
+    <sdef n="mf"       c="Masculí / feminí"/>
+ 
+    <sdef n="p1"       c="Primera persona"/>
+    <sdef n="p2"       c="Segona persona"/>
+    <sdef n="p3"       c="Tercera persona"/>
+
+    <sdef n="sg"       c="Singular"/>
+    <sdef n="pl"       c="Plural"/>
+    <sdef n="sp"       c="Singular / plural"/>
+  
+    <sdef n="cm"       c="Comma"/>
+    <sdef n="sent"     c="Sentence marker"/>
+  </sdefs>
+
+  <section id="main" type="standard">
+
+    <!-- SECTION: Miscellaneous -->
+    <!-- SECTION: Conjunctions -->
+
+    <e><p><l>i<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+    <e><p><l>però<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
+    <e><p><l>si<s n="cnjadv"/></l><r>sì<s n="cnjadv"/></r></p></e>
+    <e><p><l>que<s n="cnjsub"/></l><r>chì<s n="cnjsub"/></r></p></e>
+
+
+    <!-- SECTION: Prepositions -->
+
+    <e><p><l>amb<s n="pr"/></l><r>cù<s n="pr"/></r></p></e>
+    <e><p><l>de<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
+    <e><p><l>per<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
+    <e><p><l>sota<s n="pr"/></l><r>sottu<s n="pr"/></r></p></e>
+    <e><p><l>a<s n="pr"/></l><r>à<s n="pr"/></r></p></e>
+
+    <!--<e><p><l>davant<s n="pr"/></l><r>@davant<s n="pr"/></r></p></e>-->
+    <!--<e><p><l>dins de<s n="pr"/></l><r>@dins de<s n="pr"/></r></p></e>-->
+
+    <!-- SECTION: Determiners -->
+
+    <e><p><l>el<s n="det"/><s n="def"/></l><r>u<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>un<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e><p><l>jo<s n="prn"/><s n="tn"/></l><r>eiu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tù<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>ell<s n="prn"/><s n="tn"/></l><r>ellu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>nosaltres<s n="prn"/><s n="tn"/></l><r>noi<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>vosaltres<s n="prn"/><s n="tn"/></l><r>voi<s n="prn"/><s n="tn"/></r></p></e>
+
+    <e><p><l>em<s n="prn"/><s n="pro"/></l><r>mi<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>et<s n="prn"/><s n="pro"/></l><r>ti<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>es<s n="prn"/><s n="pro"/></l><r>si<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>ens<s n="prn"/><s n="pro"/></l><r>ci<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>us<s n="prn"/><s n="pro"/></l><r>vi<s n="prn"/><s n="pro"/></r></p></e>
+
+    <!-- SECTION: Numerals -->
+
+    <e><p><l>u<s n="num"/></l><r>unu<s n="num"/></r></p></e>
+    <e><p><l>dos<s n="num"/></l><r>dui<s n="num"/></r></p></e>
+    <e><p><l>sis<s n="num"/></l><r>sei<s n="num"/></r></p></e>
+    <e><p><l>cinc<s n="num"/></l><r>cinque<s n="num"/></r></p></e>
+
+    <!-- SECTION: Nouns -->
+
+    <e><p><l>aigua<s n="n"/><s n="f"/></l><r>acqua<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>animal<s n="n"/><s n="m"/></l><r>animale<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>any<s n="n"/><s n="m"/></l><r>annu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arbre<s n="n"/><s n="m"/></l><r>albéru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arbre<s n="n"/><s n="m"/></l><r>arburu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cadira<s n="n"/><s n="f"/></l><r>sedia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>calor<s n="n"/><s n="f"/></l><r>calore<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cap<s n="n"/><s n="m"/></l><r>capu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cap<s n="n"/><s n="m"/></l><r>testa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>casa<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gat<s n="n"/><s n="m"/></l><r>ghjattu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gent<s n="n"/><s n="f"/></l><r>ghjente<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>germà<s n="n"/><s n="m"/></l><r>fratéllu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>germà<s n="n"/><s n="f"/></l><r>surella<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gos<s n="n"/><s n="m"/></l><r>cane<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hora<s n="n"/><s n="f"/></l><r>ora<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>jardí<s n="n"/><s n="m"/></l><r>ortu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>joc<s n="n"/><s n="m"/></l><r>ghjocu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mà<s n="n"/><s n="f"/></l><r>manu<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mare<s n="n"/><s n="f"/></l><r>madre<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ocell<s n="n"/><s n="m"/></l><r>acellu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>resposta<s n="n"/><s n="f"/></l><r>risposta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>taula<s n="n"/><s n="f"/></l><r>tavulinu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>temps<s n="n"/><s n="m"/></l><r>tempu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pregunta<s n="n"/><s n="f"/></l><r>dumanda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ull<s n="n"/><s n="m"/></l><r>ochju<s n="n"/><s n="m"/></r></p></e>
+
+    <!--<e><p><l>nen<s n="n"/><s n="f"/></l><r>@nen<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>nen<s n="n"/><s n="m"/></l><r>@nen<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>riu<s n="n"/><s n="m"/></l><r>@riu<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>so<s n="n"/><s n="m"/></l><r>@so<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>soroll<s n="n"/><s n="m"/></l><r>@soroll<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>finestra<s n="n"/><s n="f"/></l><r>@finestra<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>gosset<s n="n"/><s n="m"/></l><r>@gosset<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>atenció<s n="n"/><s n="f"/></l><r>@atenció<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>cop<s n="n"/><s n="m"/></l><r>@cop<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>maneta<s n="n"/><s n="f"/></l><r>@maneta<s n="n"/><s n="f"/></r></p></e>-->
+
+
+    <!-- SECTION: Proper nouns -->
+
+    <e><p><l>Jaume<s n="np"/><s n="ant"/></l><r>Jaume<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maria<s n="np"/><s n="ant"/></l><r>Maria<s n="np"/><s n="ant"/></r></p></e>
+
+    <!-- SECTION: Adjectives -->
+
+    <e><p><l>vell<s n="adj"/></l><r>vechju<s n="adj"/></r></p></e>
+
+    <!-- SECTION: Adverbs -->
+
+    <e><p><l>on<s n="adv"/></l><r>induve<s n="adv"/></r></p></e>
+    <e><p><l>quan<s n="adv"/></l><r>quandu<s n="adv"/></r></p></e>
+
+    <e><p><l>no<s n="adv"/></l><r>ùn<s n="adv"/></r></p></e>
+    <e><p><l>pas<s n="adv"/></l><r>micca<s n="adv"/></r></p></e>
+
+    <e><p><l>així<s n="adv"/></l><r>cusì<s n="adv"/></r></p></e>
+    <e><p><l>bé<s n="adv"/></l><r>bè<s n="adv"/></r></p></e>
+    <e><p><l>també<s n="adv"/></l><r>ancu<s n="adv"/></r></p></e>
+    <e><p><l>avui<s n="adv"/></l><r>oghje<s n="adv"/></r></p></e>
+    <e><p><l>prou<s n="adv"/></l><r>assai<s n="adv"/></r></p></e>
+    <e><p><l>probablement<s n="adv"/></l><r>forse<s n="adv"/></r></p></e>
+
+    <e><p><l>ahir<s n="adv"/></l><r>eri<s n="adv"/></r></p></e>
+    <e><p><l>ara<s n="adv"/></l><r>avà<s n="adv"/></r></p></e>
+    <e><p><l>fora<s n="adv"/></l><r>fora<s n="adv"/></r></p></e>
+    <e><p><l>llavors<s n="adv"/></l><r>allora<s n="adv"/></r></p></e>
+    <e><p><l>llavors<s n="adv"/></l><r>tandu<s n="adv"/></r></p></e>
+    <e><p><l>per<b/>què<s n="adv"/></l><r>parche<s n="adv"/></r></p></e>
+    <e><p><l>poc<s n="adv"/></l><r>pocu<s n="adv"/></r></p></e>
+    <e><p><l>sempre<s n="adv"/></l><r>sempre<s n="adv"/></r></p></e>
+
+
+    <!-- SECTION: Verbs -->
+
+    <e><p><l>estar<s n="vblex"/></l><r>esse<s n="vbser"/></r></p></e>
+    <e><p><l>ser<s n="vbser"/></l><r>esse<s n="vbser"/></r></p></e>
+    <e><p><l>haver<s n="vbhaver"/></l><r>avè<s n="vbhaver"/></r></p></e>
+    <e><p><l>tenir<s n="vblex"/></l><r>tene<s n="vbhaver"/></r></p></e>
+    <e><p><l>poder<s n="vbmod"/></l><r>pudè<s n="vbmod"/></r></p></e>
+
+    <e><p><l>fer<s n="vblex"/></l><r>fà<s n="vblex"/></r></p></e>
+    <e><p><l>andar<s n="vblex"/></l><r>andà<s n="vblex"/></r></p></e>
+    <e><p><l>dar<s n="vblex"/></l><r>dà<s n="vblex"/></r></p></e>
+    <e><p><l>estar<s n="vblex"/></l><r>stà<s n="vblex"/></r></p></e>
+    <e><p><l>parlar<s n="vblex"/></l><r>parlà<s n="vblex"/></r></p></e>
+    <e><p><l>esperar<s n="vblex"/></l><r>aspittà<s n="vblex"/></r></p></e>
+    <e><p><l>cantar<s n="vblex"/></l><r>cantà<s n="vblex"/></r></p></e>
+    <e><p><l>creer<s n="vblex"/></l><r>crede<s n="vblex"/></r></p></e>
+    <e><p><l>posar<s n="vblex"/></l><r>mette<s n="vblex"/></r></p></e>
+
+    <e><p><l>acabar<s n="vblex"/></l><r>finisce<s n="vblex"/></r></p></e>
+    <e><p><l>anar<s n="vblex"/></l><r>andà<s n="vblex"/></r></p></e>
+    <e><p><l>beure<s n="vblex"/></l><r>béie<s n="vblex"/></r></p></e>
+    <e><p><l>buscar<s n="vblex"/></l><r>buscà<s n="vblex"/></r></p></e>
+    <e><p><l>buscar<s n="vblex"/></l><r>circà<s n="vblex"/></r></p></e>
+    <e><p><l>contestar<s n="vblex"/></l><r>risponde<s n="vblex"/></r></p></e>
+    <e><p><l>creure<s n="vblex"/></l><r>crede<s n="vblex"/></r></p></e>
+    <e><p><l>dir<s n="vblex"/></l><r>dì<s n="vblex"/></r></p></e>
+    <e><p><l>dormir<s n="vblex"/></l><r>dorme<s n="vblex"/></r></p></e>
+    <e><p><l>escoltar<s n="vblex"/></l><r>ascultà<s n="vblex"/></r></p></e>
+    <e><p><l>intentar<s n="vblex"/></l><r>pruvà<s n="vblex"/></r></p></e>
+    <e><p><l>jugar<s n="vblex"/></l><r>ghjucà<s n="vblex"/></r></p></e>
+    <e><p><l>menjar<s n="vblex"/></l><r>manghjà<s n="vblex"/></r></p></e>
+    <e><p><l>preguntar<s n="vblex"/></l><r>dumandà<s n="vblex"/></r></p></e>
+    <e><p><l>riure<s n="vblex"/></l><r>ride<s n="vblex"/></r></p></e>
+    <e><p><l>saber<s n="vblex"/></l><r>sapè<s n="vblex"/></r></p></e>
+    <e><p><l>trobar<s n="vblex"/></l><r>truvà<s n="vblex"/></r></p></e>
+    <e><p><l>venir<s n="vblex"/></l><r>vène<s n="vblex"/></r></p></e>
+    <e><p><l>veure<s n="vblex"/></l><r>vède<s n="vblex"/></r></p></e>
+    <e><p><l>voltar<s n="vblex"/></l><r>girà<s n="vblex"/></r></p></e>
+    <e><p><l>agradar<s n="vblex"/></l><r>piace<s n="vblex"/></r></p></e>
+    <e><p><l>amar<s n="vblex"/></l><r>amà<s n="vblex"/></r></p></e>
+    <e><p><l>voler<s n="vblex"/></l><r>vulè<s n="vblex"/></r></p></e>
+    <e><p><l>eixir<s n="vblex"/></l><r>esce<s n="vblex"/></r></p></e>
+    <e><p><l>sortir<s n="vblex"/></l><r>esce<s n="vblex"/></r></p></e>
+    <e><p><l>capisce<s n="vblex"/></l><r>comprender<s n="vblex"/></r></p></e>
+    <e><p><l>capisce<s n="vblex"/></l><r>entender<s n="vblex"/></r></p></e>
+    <e><p><l>conocer<s n="vblex"/></l><r>cunnosce<s n="vblex"/></r></p></e>
+
+    <!--<e><p><l>amagar<s n="vblex"/></l><r>@amagar<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>encantar<s n="vblex"/></l><r>@encantar<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>apropar<s n="vblex"/></l><r>@apropar<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>asseure<s n="vblex"/></l><r>@asseure<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>caminar<s n="vblex"/></l><r>@caminar<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>comptar<s n="vblex"/></l><r>@comptar<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>mirar<s n="vblex"/></l><r>@mirar<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>rebre<s n="vblex"/></l><r>@rebre<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>sentir<s n="vblex"/></l><r>@sentir<s n="vblex"/></r></p></e>-->
+    <!--<e><p><l>tapar<s n="vblex"/></l><r>@tapar<s n="vblex"/></r></p></e>-->
+
+ 
+    <!-- SECTION: Interjections -->
+    <!-- SECTION: Punctuation -->
+
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+
+  </section>
+</dictionary>
