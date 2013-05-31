@@ -21,6 +21,7 @@
     <sdef n="ind"      c="Indefinit"/>
     <sdef n="def"      c="Definit"/>
     <sdef n="pro"      c="Proclític"/>
+    <sdef n="itg"      c="Interrogatiu"/>
     <sdef n="tn"       c="Tònic"/>
     <sdef n="pos"      c="Possessiu"/>
     <sdef n="ref"      c="Reflexiu"/>
@@ -29,6 +30,7 @@
     <sdef n="inf"      c="Infinitiu"/>
     <sdef n="pp"       c="Participiu"/>
     <sdef n="pri"      c="Present d'indicatiu"/>
+    <sdef n="prs"      c="Present de subjunctiu"/>
 
     <sdef n="m"        c="Masculí"/>
     <sdef n="f"        c="Feminí"/>
@@ -53,7 +55,10 @@
 
     <e><p><l>i<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
     <e><p><l>però<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
+    <e><p><l>o<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ni<s n="cnjcoo"/></l><r>ni<s n="cnjcoo"/></r></p></e>
     <e><p><l>si<s n="cnjadv"/></l><r>sì<s n="cnjadv"/></r></p></e>
+    <e><p><l>perquè<s n="cnjadv"/></l><r>parchì<s n="cnjadv"/></r></p></e>
     <e><p><l>que<s n="cnjsub"/></l><r>chì<s n="cnjsub"/></r></p></e>
 
     <!-- SECTION: Prepositions -->
@@ -61,6 +66,7 @@
     <e><p><l>amb<s n="pr"/></l><r>cù<s n="pr"/></r></p></e>
     <e><p><l>de<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
     <e><p><l>per<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
+    <e><p><l>sense<s n="pr"/></l><r>senza<s n="pr"/></r></p></e>
     <e><p><l>sota<s n="pr"/></l><r>sottu<s n="pr"/></r></p></e>
     <e><p><l>a<s n="pr"/></l><r>à<s n="pr"/></r></p></e>
     <e><p><l>a<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
@@ -104,11 +110,17 @@
     <e><p><l>el<b/>vostre<s n="prn"/><s n="tn"/></l><r>u<b/>vostru<s n="prn"/><s n="tn"/></r></p></e>
 
     <e><p><l>res<s n="prn"/><s n="tn"/></l><r>nulla<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>ningú<s n="prn"/><s n="tn"/></l><r>nimu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>algun<s n="prn"/><s n="tn"/></l><r>alcunu<s n="prn"/><s n="tn"/></r></p></e>
+
+    <e><p><l>hi<s n="prn"/><s n="pro"/></l><r>ci<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>en<s n="prn"/><s n="pro"/></l><r>ne<s n="prn"/><s n="pro"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
     <e><p><l>u<s n="num"/></l><r>unu<s n="num"/></r></p></e>
     <e><p><l>dos<s n="num"/></l><r>dui<s n="num"/></r></p></e>
+    <e><p><l>tres<s n="num"/></l><r>trè<s n="num"/></r></p></e>
     <e><p><l>sis<s n="num"/></l><r>sei<s n="num"/></r></p></e>
     <e><p><l>cinc<s n="num"/></l><r>cinque<s n="num"/></r></p></e>
 
@@ -143,12 +155,17 @@
     <e><p><l>mes<s n="n"/><s n="m"/></l><r>mese<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pregunta<s n="n"/><s n="f"/></l><r>dumanda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>setmana<s n="n"/><s n="f"/></l><r>sittimana<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>regió<s n="n"/><s n="f"/></l><r>regione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>informació<s n="n"/><s n="f"/></l><r>infurmazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ull<s n="n"/><s n="m"/></l><r>ochju<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>article<s n="n"/><s n="m"/></l><r>articulu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nom<s n="n"/><s n="m"/></l><r>nomu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>home<s n="n"/><s n="m"/></l><r>omu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dona<s n="n"/><s n="f"/></l><r>donna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>llengua<s n="n"/><s n="f"/></l><r>lingua<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nen<s n="n"/><s n="f"/></l><r>zitellu<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nen<s n="n"/><s n="m"/></l><r>zitellu<s n="n"/><s n="m"/></r></p></e>
 
-    <!--<e><p><l>nen<s n="n"/><s n="f"/></l><r>@nen<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>nen<s n="n"/><s n="m"/></l><r>@nen<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>riu<s n="n"/><s n="m"/></l><r>@riu<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>so<s n="n"/><s n="m"/></l><r>@so<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>soroll<s n="n"/><s n="m"/></l><r>@soroll<s n="n"/><s n="m"/></r></p></e>-->
@@ -170,17 +187,24 @@
 
     <!-- SECTION: Adverbs -->
 
-    <e><p><l>on<s n="adv"/></l><r>induve<s n="adv"/></r></p></e>
-    <e><p><l>quan<s n="adv"/></l><r>quandu<s n="adv"/></r></p></e>
+    <e><p><l>on<s n="adv"/><s n="itg"/></l><r>induve<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>com<s n="adv"/><s n="itg"/></l><r>cumu<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>quan<s n="adv"/><s n="itg"/></l><r>quandu<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>per<b/>què<s n="adv"/><s n="itg"/></l><r>parchè<s n="adv"/><s n="itg"/></r></p></e>
 
     <e><p><l>no<s n="adv"/></l><r>ùn<s n="adv"/></r></p></e>
     <e><p><l>pas<s n="adv"/></l><r>micca<s n="adv"/></r></p></e>
 
     <e><p><l>així<s n="adv"/></l><r>cusì<s n="adv"/></r></p></e>
+    <e><p><l>enlloc<s n="adv"/></l><r>in<b/>locu<s n="adv"/></r></p></e>
     <e><p><l>bé<s n="adv"/></l><r>bè<s n="adv"/></r></p></e>
     <e><p><l>també<s n="adv"/></l><r>ancu<s n="adv"/></r></p></e>
+    <e><p><l>encara<s n="adv"/></l><r>ancu<s n="adv"/></r></p></e>
     <e><p><l>avui<s n="adv"/></l><r>oghje<s n="adv"/></r></p></e>
     <e><p><l>prou<s n="adv"/></l><r>assai<s n="adv"/></r></p></e>
+    <e><p><l>massa<s n="adv"/></l><r>troppu<s n="adv"/></r></p></e>
+    <e><p><l>mai<s n="adv"/></l><r>mai<s n="adv"/></r></p></e>
+    <e><p><l>més<s n="adv"/></l><r>più<s n="adv"/></r></p></e>
     <e><p><l>probablement<s n="adv"/></l><r>forse<s n="adv"/></r></p></e>
 
     <e><p><l>ahir<s n="adv"/></l><r>eri<s n="adv"/></r></p></e>
@@ -188,9 +212,10 @@
     <e><p><l>fora<s n="adv"/></l><r>fora<s n="adv"/></r></p></e>
     <e><p><l>llavors<s n="adv"/></l><r>allora<s n="adv"/></r></p></e>
     <e><p><l>llavors<s n="adv"/></l><r>tandu<s n="adv"/></r></p></e>
-    <e><p><l>per<b/>què<s n="adv"/></l><r>parche<s n="adv"/></r></p></e>
     <e><p><l>poc<s n="adv"/></l><r>pocu<s n="adv"/></r></p></e>
     <e><p><l>sempre<s n="adv"/></l><r>sempre<s n="adv"/></r></p></e>
+    <e><p><l>demà<s n="adv"/></l><r>dumane<s n="adv"/></r></p></e>
+    <e><p><l>aquí<s n="adv"/></l><r>quì<s n="adv"/></r></p></e>
 
 
     <!-- SECTION: Verbs -->
@@ -200,6 +225,8 @@
     <e><p><l>haver<s n="vbhaver"/></l><r>avè<s n="vbhaver"/></r></p></e>
     <e><p><l>tenir<s n="vblex"/></l><r>tene<s n="vblex"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>pudè<s n="vbmod"/></r></p></e>
+
+    <e><p><l>hi<b/>ha<s n="vblex"/></l><r>ci<b/>hè<s n="vblex"/></r></p></e>
 
     <e><p><l>fer<s n="vblex"/></l><r>fà<s n="vblex"/></r></p></e>
     <e><p><l>andar<s n="vblex"/></l><r>andà<s n="vblex"/></r></p></e>
@@ -228,7 +255,7 @@
     <e><p><l>riure<s n="vblex"/></l><r>ride<s n="vblex"/></r></p></e>
     <e><p><l>saber<s n="vblex"/></l><r>sapè<s n="vblex"/></r></p></e>
     <e><p><l>trobar<s n="vblex"/></l><r>truvà<s n="vblex"/></r></p></e>
-    <e><p><l>venir<s n="vblex"/></l><r>vène<s n="vblex"/></r></p></e>
+    <e><p><l>venir<s n="vblex"/></l><r>vene<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>vède<s n="vblex"/></r></p></e>
     <e><p><l>voltar<s n="vblex"/></l><r>girà<s n="vblex"/></r></p></e>
     <e><p><l>agradar<s n="vblex"/></l><r>piace<s n="vblex"/></r></p></e>
@@ -241,6 +268,17 @@
     <e><p><l>conocer<s n="vblex"/></l><r>cunnosce<s n="vblex"/></r></p></e>
     <e><p><l>ajudar<s n="vblex"/></l><r>aiutà<s n="vblex"/></r></p></e>
     <e><p><l>escriure<s n="vblex"/></l><r>scrive<s n="vblex"/></r></p></e>
+    <e><p><l>mirar<s n="vblex"/></l><r>fidià<s n="vblex"/></r></p></e>
+    <e><p><l>esperar<s n="vblex"/></l><r>spirà<s n="vblex"/></r></p></e>
+    <e><p><l>tancar<s n="vblex"/></l><r>sarrà<s n="vblex"/></r></p></e>
+    <e><p><l>tocar<s n="vblex"/></l><r>tuccà<s n="vblex"/></r></p></e>
+    <e><p><l>partir<s n="vblex"/></l><r>parte<s n="vblex"/></r></p></e>
+    <e><p><l>ballar<s n="vblex"/></l><r>ballà<s n="vblex"/></r></p></e>
+    <e><p><l>caure<s n="vblex"/></l><r>cascà<s n="vblex"/></r></p></e>
+    <e><p><l>visitar<s n="vblex"/></l><r>visità<s n="vblex"/></r></p></e>
+    <e><p><l>arribar<s n="vblex"/></l><r>ghjunghje<s n="vblex"/></r></p></e>
+    <e><p><l>conéixer<s n="vblex"/></l><r>cunnosce<s n="vblex"/></r></p></e>
+    <e><p><l>entendre<s n="vblex"/></l><r>capisce<s n="vblex"/></r></p></e>
 
     <!--<e><p><l>amagar<s n="vblex"/></l><r>@amagar<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>encantar<s n="vblex"/></l><r>@encantar<s n="vblex"/></r></p></e>-->
@@ -248,7 +286,6 @@
     <!--<e><p><l>asseure<s n="vblex"/></l><r>@asseure<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>caminar<s n="vblex"/></l><r>@caminar<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>comptar<s n="vblex"/></l><r>@comptar<s n="vblex"/></r></p></e>-->
-    <!--<e><p><l>mirar<s n="vblex"/></l><r>@mirar<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>rebre<s n="vblex"/></l><r>@rebre<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>sentir<s n="vblex"/></l><r>@sentir<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>tapar<s n="vblex"/></l><r>@tapar<s n="vblex"/></r></p></e>-->

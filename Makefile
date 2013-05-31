@@ -4,6 +4,7 @@ all:
 	lt-comp rl apertium-cat-cos.cat-cos.dix cos-cat.autobil.bin
 	lt-comp rl apertium-cat-cos.cos.dix cat-cos.autogen.bin
 	lt-comp lr apertium-cat-cos.cos.dix cos-cat.automorf.bin
+	lt-comp lr apertium-cat-cos.post-cat.dix cos-cat.autopgen.bin
 	lrx-comp apertium-cat-cos.cat-cos.lrx cat-cos.autolex.bin
 	lrx-comp apertium-cat-cos.cos-cat.lrx cos-cat.autolex.bin
 	apertium-preprocess-transfer apertium-cat-cos.cat-cos.t1x cat-cos.t1x.bin

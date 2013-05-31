@@ -75660,11 +75660,20 @@
 
 <e lm="ahir"><i>ahir</i><par n="ahir__adv"/></e>
 <e lm="així"><i>així</i><par n="ahir__adv"/></e>
+<e lm="aquí"><i>aquí</i><par n="ahir__adv"/></e>
 <e lm="ara"><i>ara</i><par n="ahir__adv"/></e>
 <e lm="avui"><i>avui</i><par n="ahir__adv"/></e>
 <e lm="bé"><i>bé</i><par n="ahir__adv"/></e>
+<e lm="com"><i>com</i><par n="ahir__adv"/></e>
+<e lm="com"><i>com</i><par n="a_on__adv"/></e>
+<e lm="demà"><i>demà</i><par n="ahir__adv"/></e>
+<e lm="encara"><i>encara</i><par n="ahir__adv"/></e>
+<e lm="enlloc" a="prompsit"><i>enlloc</i><par n="ahir__adv"/></e>
 <e lm="fora"><i>fora</i><par n="ahir__adv"/></e>
 <e lm="llavors"><i>llavors</i><par n="ahir__adv"/></e>
+<e lm="mai"><i>mai</i><par n="ahir__adv"/></e>
+<e lm="massa"><i>massa</i><par n="ahir__adv"/></e>
+<e lm="més"><i>més</i><par n="ahir__adv"/></e>
 <e lm="no"><i>no</i><par n="ahir__adv"/></e>
 <e lm="on"><i>on</i><par n="on__adv"/></e>
 <e lm="per què"><i>per<b/>què</i><par n="a_on__adv"/></e>
@@ -75678,7 +75687,10 @@
 
 
 <e lm="i"><i>i</i><par n="i__cnjcoo"/></e>
+<e lm="ni"><i>ni</i><par n="i__cnjcoo"/></e>
+<e lm="o"><i>o</i><par n="i__cnjcoo"/></e>
 <e lm="però"><i>però</i><par n="i__cnjcoo"/></e>
+<e lm="perquè"><i>perquè</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="que"><i>que</i><par n="que__cnjsub"/></e>
 <e lm="si"><i>si</i><par n="a_fe_que__cnjadv"/></e>
 <!-- det.xml -->
@@ -75708,6 +75720,7 @@
 <e lm="cinc"><i>cinc</i><par n="sis__num"/></e>
 <e lm="dos"><i>d</i><par n="cinquanta-d/os__num"/></e>
 <e lm="sis"><i>sis</i><par n="sis__num"/></e>
+<e lm="tres"><i>tres</i><par n="sis__num"/></e>
 <e lm="u"><i>u</i><par n="cinquanta-u__num"/></e>
 <!-- n.xml -->
 
@@ -75723,20 +75736,26 @@
 <e lm="cap"><i>cap</i><par n="accessibilitat__n"/></e>
 <e lm="casa"><i>cas</i><par n="abell/a__n"/></e>
 <e lm="comunitat"><i>comunitat</i><par n="accessibilitat__n"/></e>
+<e lm="dona"><i>don</i><par n="abell/a__n"/></e>
 <e lm="gat"><i>gat</i><par n="senyor__n"/></e>
 <e lm="gent"><i>gent</i><par n="accessibilitat__n"/></e>
 <e lm="germà"><i>germ</i><par n="americ/à__n"/></e>
 <e lm="gos"><i>gos</i><par n="gos__n"/></e>
+<e lm="home"><i>h</i><par n="h/ome__n"/></e>
 <e lm="hora"><i>hor</i><par n="abell/a__n"/></e>
+<e lm="informació"><i>informaci</i><par n="acci/ó__n"/></e>
 <e lm="jardí"><i>jard</i><par n="boc/í__n"/></e>
 <e lm="joc"><i>joc</i><par n="abric__n"/></e>
+<e lm="llengua"><i>lleng</i><par n="aig/ua__n"/></e>
 <e lm="mà"><i>m</i><par n="m/à__n"/></e>
 <e lm="mare"><i>mare</i><par n="accessibilitat__n"/></e>
 <e lm="mes"><i>mes</i><par n="as__n"/></e>
+<e lm="nen"><i>nen</i><par n="senyor__n"/></e>
 <e lm="nom"><i>nom</i><par n="abric__n"/></e>
 <e lm="ocell"><i>ocell</i><par n="abric__n"/></e>
 <e lm="pregunta"><i>pregunt</i><par n="abell/a__n"/></e>
 <e lm="projecte"><i>projecte</i><par n="abric__n"/></e>
+<e lm="regió"><i>regi</i><par n="acci/ó__n"/></e>
 <e lm="resposta"><i>respost</i><par n="abell/a__n"/></e>
 <e lm="setmana"><i>setman</i><par n="abell/a__n"/></e>
 <e lm="taula"><i>taul</i><par n="abell/a__n"/></e>
@@ -75751,6 +75770,7 @@
 <!-- prn.xml -->
 
 
+<e lm="algun"><i>algun</i><par n="algun__prn"/></e>
 <e lm="ell"><i>ell</i><par n="ell__prn"/></e>
 <e lm="el meu"><par n="/el_meu__prn"/></e>
 <e lm="el nostre"><par n="/el_nostre__prn"/></e>
@@ -75758,20 +75778,25 @@
 <e lm="el teu"><par n="/el_teu__prn"/></e>
 <e lm="el vostre"><par n="/el_vostre__prn"/></e>
 <e lm="jo"><i>jo</i><par n="amb_mi__prn"/></e>
+<e lm="ningú"><i>ningú</i><par n="algú__prn"/></e>
 <e lm="nosaltres"><i>nosaltres</i><par n="nosaltres__prn"/></e>
 <e lm="res"><i>res</i><par n="allò__prn"/></e>
 <e lm="tu"><i>tu</i><par n="amb_tu__prn"/></e>
 <e lm="vosaltres"><i>vosaltres</i><par n="vosaltres__prn"/></e>
 <e r="LR" lm="em"><p><l>em</l>                    <r>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="en"><i>en</i><par n="en__prn"/></e>
 <e r="LR" lm="ens"><i>ens</i><par n="ens__prn"/></e>
 <e r="LR" lm="es"><p><l>es</l>                    <r>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" lm="et"><i>et</i><par n="et__prn"/></e>
+<e r="LR" lm="hi"><i>hi</i><par n="en__prn"/></e>
 <e r="LR" lm="li"><p><l>li</l>                    <r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="us"><i>us</i><par n="us__prn"/></e>
 <e r="RL" lm="em"><p><l><a/>em</l>                <r>em</r></p><par n="~em__prn"/></e>
+<e r="RL" lm="en"><p><l><a/>en</l>                <r>en</r></p><par n="en__prn"/></e>
 <e r="RL" lm="ens"><p><l><a/>ens</l>              <r>ens</r></p><par n="ens__prn"/></e>
 <e r="RL" lm="es"><p><l><a/>es</l>                <r>es</r></p><par n="hom__prn"/></e>
 <e r="RL" lm="et"><p><l><a/>et</l>                <r>et</r></p><par n="et__prn"/></e>
+<e r="RL" lm="hi"><p><l><a/>hi</l>                <r>hi</r></p><par n="en__prn"/></e>
 <e r="RL" lm="li"><p><l><a/></l>                  <r>l</r></p><par n="~/i__prn"/></e>
 <e r="RL" lm="us"><p><l><a/>us</l>                <r>us</r></p><par n="us__prn"/></e>
 <!-- pr.xml -->
@@ -75781,6 +75806,7 @@
 <e lm="a"><par n="conta__pr"/></e>
 <e lm="de"><par n="contde__pr"/></e>
 <e lm="per"><par n="contper__pr"/></e>
+<e lm="sense"><i>sense</i><par n="a__pr"/></e>
 <e lm="sota"><i>sota</i><par n="a__pr"/></e>
 <!-- rel.xml -->
 
@@ -75796,24 +75822,31 @@
 <e lm="agradar"><i>agrad</i><par n="abander/ar__vblex"/></e>
 <e lm="ajudar"><i>ajud</i><par n="abander/ar__vblex"/></e>
 <e lm="anar"><par n="/anar__vblex"/></e>
+<e lm="arribar"><i>arrib</i><par n="abander/ar__vblex"/></e>
+<e lm="ballar"><i>ball</i><par n="abander/ar__vblex"/></e>
 <e lm="beure"><i>be</i><par n="be/ure__vblex"/></e>
 <e lm="buscar"><i>bus</i><par n="abo/car__vblex"/></e>
 <e lm="cantar"><i>cant</i><par n="abander/ar__vblex"/></e>
+<e lm="caure"><par n="/caure__vblex"/></e>
 <e lm="contestar"><i>contest</i><par n="abander/ar__vblex"/></e>
 <e lm="creure"><i>cr</i><par n="ass/eure__vblex"/></e>
 <e lm="dir"><i>d</i><par n="d/ir__vblex"/></e>
 <e lm="dormir"><i>dorm</i><par n="ajup/ir__vblex"/></e>
 <e lm="eixir"><par n="/eixir__vblex"/></e>
+<e lm="entendre"><i>ent</i><par n="at/endre__vblex"/></e>
 <e lm="escoltar"><i>escolt</i><par n="abander/ar__vblex"/></e>
 <e lm="escriure"><i>escri</i><par n="adscri/ure__vblex"/></e>
 <e lm="esperar"><i>esper</i><par n="abander/ar__vblex"/></e>
 <e lm="estar"><i>es</i><par n="es/tar__vblex"/></e>
 <e lm="fer"><i>f</i><par n="f/er__vblex"/></e>
 <e lm="haver"><i/><par n="haver__vbhaver"/></e>
+<e lm="hi ha"><p><l>hi<b/>ha</l>                  <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e lm="intentar"><i>intent</i><par n="abander/ar__vblex"/></e>
 <e lm="jugar"><i>jug</i><par n="afalag/ar__vblex"/></e>
 <e lm="menjar"><i>men</i><par n="agreu/jar__vblex"/></e>
+<e lm="mirar"><i>mir</i><par n="abander/ar__vblex"/></e>
 <e lm="parlar"><i>parl</i><par n="abander/ar__vblex"/></e>
+<e lm="partir"><i>part</i><par n="abarat/ir__vblex"/></e>
 <e lm="poder"><i>p</i><par n="p/oder__vbmod"/></e>
 <e lm="posar"><i>pos</i><par n="abander/ar__vblex"/></e>
 <e lm="preguntar"><i>pregunt</i><par n="abander/ar__vblex"/></e>
@@ -75821,11 +75854,14 @@
 <e lm="saber"><par n="/saber__vblex"/></e>
 <e lm="ser"><par n="/ser__vbser"/></e>
 <e lm="sortir"><i>s</i><par n="sobres/ortir__vblex"/></e>
+<e lm="tancar"><i>tan</i><par n="abo/car__vblex"/></e>
 <e lm="tenir"><par n="abs/tenir__vblex"/></e>
+<e lm="tocar"><i>to</i><par n="abo/car__vblex"/></e>
 <e lm="trobar"><i>trob</i><par n="abander/ar__vblex"/></e>
 <e lm="venir" a="prompsit"><i>v</i><par n="v/enir__vblex"/></e>
 <e lm="venir"><i>v</i><par n="v/enir__vblex"/></e>
 <e lm="veure"><i>v</i><par n="entrev/eure__vblex"/></e>
+<e lm="visitar"><i>visit</i><par n="abander/ar__vblex"/></e>
 <e lm="voler"><i>v</i><par n="v/oler__vblex"/></e>
 <e lm="voltar"><i>volt</i><par n="abander/ar__vblex"/></e>
 </section>

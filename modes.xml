@@ -164,6 +164,34 @@
       <program name="lt-proc -g">
         <file name="cos-cat.autogen.bin"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="cos-cat.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cos-cat-debug" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cos-cat.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="cos-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="cos-cat.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="cos-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-cat-cos.cos-cat.t1x"/>
+        <file name="cos-cat.t1x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="cos-cat.autogen.bin"/>
+      </program>
     </pipeline>
   </mode>
 
