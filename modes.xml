@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <modes>
+
   <mode name="cat-cos" install="yes">
     <pipeline>
       <program name="lt-proc">
@@ -22,6 +23,9 @@
       </program>
       <program name="lt-proc -g">
         <file name="cat-cos.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="cat-cos.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>

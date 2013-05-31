@@ -46,6 +46,16 @@
   
     <sdef n="cm"       c="Comma"/>
     <sdef n="sent"     c="Sentence marker"/>
+    <sdef n="lpar"     c="Left parenthesis"/>
+    <sdef n="rpar"     c="Right parenthesis"/>
+    <sdef n="lquot"    c="Left quote"/>
+    <sdef n="rquot"    c="Right quote"/>
+    <sdef n="guio"     c="Hyphen"/>
+    <sdef n="apos"     c="Apostrophe"/>
+
+    <sdef n="GD"       c="Gender to be determined"/>
+    <sdef n="ND"       c="Number to be determined"/>
+
   </sdefs>
 
   <section id="main" type="standard">
@@ -53,7 +63,7 @@
     <!-- SECTION: Miscellaneous -->
     <!-- SECTION: Conjunctions -->
 
-    <e><p><l>i<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+    <e><p><l>i<s n="cnjcoo"/></l><r>è<s n="cnjcoo"/></r></p></e>
     <e><p><l>però<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
     <e><p><l>o<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
     <e><p><l>ni<s n="cnjcoo"/></l><r>ni<s n="cnjcoo"/></r></p></e>
@@ -70,13 +80,18 @@
     <e><p><l>sota<s n="pr"/></l><r>sottu<s n="pr"/></r></p></e>
     <e><p><l>a<s n="pr"/></l><r>à<s n="pr"/></r></p></e>
     <e><p><l>a<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
 
     <!--<e><p><l>davant<s n="pr"/></l><r>@davant<s n="pr"/></r></p></e>-->
     <!--<e><p><l>dins de<s n="pr"/></l><r>@dins de<s n="pr"/></r></p></e>-->
 
     <!-- SECTION: Determiners -->
 
-    <e><p><l>el<s n="det"/><s n="def"/></l><r>u<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>el<s n="det"/><s n="def"/><s n="m"/></l><r>u<s n="det"/><s n="def"/><s n="m"/></r></p></e>
+    <e><p><l>el<s n="det"/><s n="def"/><s n="f"/></l><r>u<s n="det"/><s n="def"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>el<s n="det"/><s n="def"/><s n="mf"/></l><r>u<s n="det"/><s n="def"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>u<s n="det"/><s n="def"/><s n="mf"/></r></p></e>
+
     <e><p><l>un<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
 
     <e><p><l>el<b/>meu<s n="det"/><s n="pos"/></l><r>u<b/>mè<s n="det"/><s n="pos"/></r></p></e>
@@ -127,15 +142,25 @@
     <!-- SECTION: Nouns -->
 
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>acqua<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ciència<s n="n"/><s n="f"/></l><r>scienza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>traducció<s n="n"/><s n="f"/></l><r>traduzzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>relació<s n="n"/><s n="f"/></l><r>relazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tradició<s n="n"/><s n="f"/></l><r>tradizione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>animal<s n="n"/><s n="m"/></l><r>animale<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>objecte<s n="n"/><s n="m"/></l><r>oggettu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>estudi<s n="n"/><s n="m"/></l><r>studiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>any<s n="n"/><s n="m"/></l><r>annu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>arbre<s n="n"/><s n="m"/></l><r>albéru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>calendari<s n="n"/><s n="m"/></l><r>calendariu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>arbre<s n="n"/><s n="m"/></l><r>arburu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cadira<s n="n"/><s n="f"/></l><r>sedia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>àrea<s n="n"/><s n="f"/></l><r>area<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>paraula<s n="n"/><s n="f"/></l><r>parola<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>distribució<s n="n"/><s n="f"/></l><r>distribuzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>calor<s n="n"/><s n="f"/></l><r>calore<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cap<s n="n"/><s n="m"/></l><r>capu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cap<s n="n"/><s n="m"/></l><r>testa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>superfície<s n="n"/><s n="f"/></l><r>superficia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>comunitat<s n="n"/><s n="f"/></l><r>cumunità<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gat<s n="n"/><s n="m"/></l><r>ghjattu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gent<s n="n"/><s n="f"/></l><r>ghjente<s n="n"/><s n="f"/></r></p></e>
@@ -143,6 +168,7 @@
     <e><p><l>germà<s n="n"/><s n="f"/></l><r>surella<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gos<s n="n"/><s n="m"/></l><r>cane<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hora<s n="n"/><s n="f"/></l><r>ora<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>terra<s n="n"/><s n="f"/></l><r>terra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>jardí<s n="n"/><s n="m"/></l><r>ortu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>joc<s n="n"/><s n="m"/></l><r>ghjocu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mà<s n="n"/><s n="f"/></l><r>manu<s n="n"/><s n="f"/></r></p></e>
@@ -162,9 +188,14 @@
     <e><p><l>nom<s n="n"/><s n="m"/></l><r>nomu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>home<s n="n"/><s n="m"/></l><r>omu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dona<s n="n"/><s n="f"/></l><r>donna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>escriptura<s n="n"/><s n="f"/></l><r>scrittura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>llengua<s n="n"/><s n="f"/></l><r>lingua<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>disposició<s n="n"/><s n="f"/></l><r>dispusizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>manifestació<s n="n"/><s n="f"/></l><r>manifestazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nen<s n="n"/><s n="f"/></l><r>zitellu<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nen<s n="n"/><s n="m"/></l><r>zitellu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fenomen<s n="n"/><s n="m"/></l><r>fenomenu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>procés<s n="n"/><s n="m"/></l><r>processu<s n="n"/><s n="m"/></r></p></e>
 
     <!--<e><p><l>riu<s n="n"/><s n="m"/></l><r>@riu<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>so<s n="n"/><s n="m"/></l><r>@so<s n="n"/><s n="m"/></r></p></e>-->
@@ -184,6 +215,14 @@
     <!-- SECTION: Adjectives -->
 
     <e><p><l>vell<s n="adj"/></l><r>vechju<s n="adj"/></r></p></e>
+    <e><p><l>modern<s n="adj"/></l><r>mudernu<s n="adj"/></r></p></e>
+    <e><p><l>natural<s n="adj"/></l><r>naturale<s n="adj"/></r></p></e>
+    <e><p><l>social<s n="adj"/></l><r>sociale<s n="adj"/></r></p></e>
+    <e><p><l>històric<s n="adj"/></l><r>storicu<s n="adj"/></r></p></e>
+    <e><p><l>terrestre<s n="adj"/></l><r>terrestre<s n="adj"/></r></p></e>
+    <e><p><l>físic<s n="adj"/></l><r>fisicu<s n="adj"/></r></p></e>
+    <e><p><l>grec<s n="adj"/></l><r>grecu<s n="adj"/></r></p></e>
+    <e><p><l>recíproc<s n="adj"/></l><r>riciprucu<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -279,6 +318,7 @@
     <e><p><l>arribar<s n="vblex"/></l><r>ghjunghje<s n="vblex"/></r></p></e>
     <e><p><l>conéixer<s n="vblex"/></l><r>cunnosce<s n="vblex"/></r></p></e>
     <e><p><l>entendre<s n="vblex"/></l><r>capisce<s n="vblex"/></r></p></e>
+    <e><p><l>considerar<s n="vblex"/></l><r>cunsiderà<s n="vblex"/></r></p></e>
 
     <!--<e><p><l>amagar<s n="vblex"/></l><r>@amagar<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>encantar<s n="vblex"/></l><r>@encantar<s n="vblex"/></r></p></e>-->
@@ -294,6 +334,17 @@
     <!-- SECTION: Interjections -->
     <!-- SECTION: Punctuation -->
 
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+    <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+    <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+    <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+    <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 

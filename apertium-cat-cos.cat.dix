@@ -75654,6 +75654,14 @@
 <!-- adj.xml -->
 
 
+<e lm="físic"><i>físi</i><par n="acadèmi/c__adj"/></e>
+<e lm="grec"><i>gre</i><par n="ce/c__adj"/></e>
+<e lm="històric"><i>històri</i><par n="acadèmi/c__adj"/></e>
+<e lm="modern"><i>modern</i><par n="alt__adj"/></e>
+<e lm="natural"><i>natural</i><par n="abdominal__adj"/></e>
+<e lm="recíproc"><i>recípro</i><par n="acadèmi/c__adj"/></e>
+<e lm="social"><i>social</i><par n="abdominal__adj"/></e>
+<e lm="terrestre"><i>terrestre</i><par n="abdominal__adj"/></e>
 <e lm="vell"><i>vell</i><par n="alt__adj"/></e>
 <!-- adv.xml -->
 
@@ -75729,14 +75737,22 @@
 <e lm="animal"><i>animal</i><par n="abric__n"/></e>
 <e lm="any"><i>any</i><par n="abric__n"/></e>
 <e lm="arbre"><i>arbre</i><par n="abric__n"/></e>
+<e lm="àrea"><i>àre</i><par n="abell/a__n"/></e>
 <e lm="article"><i>article</i><par n="abric__n"/></e>
 <e lm="cadira"><i>cadir</i><par n="abell/a__n"/></e>
+<e lm="calendari"><i>calendari</i><par n="abric__n"/></e>
 <e lm="calor"><i>calor</i><par n="accessibilitat__n"/></e>
 <e lm="cap"><i>cap</i><par n="abric__n"/></e>
 <e lm="cap"><i>cap</i><par n="accessibilitat__n"/></e>
 <e lm="casa"><i>cas</i><par n="abell/a__n"/></e>
+<e lm="ciència"><i>ciènci</i><par n="abell/a__n"/></e>
 <e lm="comunitat"><i>comunitat</i><par n="accessibilitat__n"/></e>
+<e lm="disposició"><i>disposici</i><par n="acci/ó__n"/></e>
+<e lm="distribució"><i>distribuci</i><par n="acci/ó__n"/></e>
 <e lm="dona"><i>don</i><par n="abell/a__n"/></e>
+<e lm="escriptura"><i>escriptur</i><par n="abell/a__n"/></e>
+<e lm="estudi"><i>estudi</i><par n="abric__n"/></e>
+<e lm="fenomen"><i>fen</i><par n="fen/omen__n"/></e>
 <e lm="gat"><i>gat</i><par n="senyor__n"/></e>
 <e lm="gent"><i>gent</i><par n="accessibilitat__n"/></e>
 <e lm="germà"><i>germ</i><par n="americ/à__n"/></e>
@@ -75748,18 +75764,27 @@
 <e lm="joc"><i>joc</i><par n="abric__n"/></e>
 <e lm="llengua"><i>lleng</i><par n="aig/ua__n"/></e>
 <e lm="mà"><i>m</i><par n="m/à__n"/></e>
+<e lm="manifestació"><i>manifestaci</i><par n="acci/ó__n"/></e>
 <e lm="mare"><i>mare</i><par n="accessibilitat__n"/></e>
 <e lm="mes"><i>mes</i><par n="as__n"/></e>
 <e lm="nen"><i>nen</i><par n="senyor__n"/></e>
 <e lm="nom"><i>nom</i><par n="abric__n"/></e>
+<e lm="objecte"><i>objecte</i><par n="abric__n"/></e>
 <e lm="ocell"><i>ocell</i><par n="abric__n"/></e>
+<e lm="paraula"><i>paraul</i><par n="abell/a__n"/></e>
 <e lm="pregunta"><i>pregunt</i><par n="abell/a__n"/></e>
+<e lm="procés"><i>proc</i><par n="acc/és__n"/></e>
 <e lm="projecte"><i>projecte</i><par n="abric__n"/></e>
 <e lm="regió"><i>regi</i><par n="acci/ó__n"/></e>
+<e lm="relació"><i>relaci</i><par n="acci/ó__n"/></e>
 <e lm="resposta"><i>respost</i><par n="abell/a__n"/></e>
 <e lm="setmana"><i>setman</i><par n="abell/a__n"/></e>
+<e lm="superfície"><i>superfície</i><par n="accessibilitat__n"/></e>
 <e lm="taula"><i>taul</i><par n="abell/a__n"/></e>
 <e lm="temps"><i>temps</i><par n="campus__n"/></e>
+<e lm="terra"><i>terr</i><par n="abell/a__n"/></e>
+<e lm="tradició"><i>tradici</i><par n="acci/ó__n"/></e>
+<e lm="traducció"><i>traducci</i><par n="acci/ó__n"/></e>
 <e lm="ull"><i>ull</i><par n="abric__n"/></e>
 <!-- preadv.xml -->
 
@@ -75805,6 +75830,7 @@
 <e lm="amb"><i>amb</i><par n="a__pr"/></e>
 <e lm="a"><par n="conta__pr"/></e>
 <e lm="de"><par n="contde__pr"/></e>
+<e lm="en"><i>en</i><par n="a__pr"/></e>
 <e lm="per"><par n="contper__pr"/></e>
 <e lm="sense"><i>sense</i><par n="a__pr"/></e>
 <e lm="sota"><i>sota</i><par n="a__pr"/></e>
@@ -75828,6 +75854,7 @@
 <e lm="buscar"><i>bus</i><par n="abo/car__vblex"/></e>
 <e lm="cantar"><i>cant</i><par n="abander/ar__vblex"/></e>
 <e lm="caure"><par n="/caure__vblex"/></e>
+<e lm="considerar"><i>consider</i><par n="abander/ar__vblex"/></e>
 <e lm="contestar"><i>contest</i><par n="abander/ar__vblex"/></e>
 <e lm="creure"><i>cr</i><par n="ass/eure__vblex"/></e>
 <e lm="dir"><i>d</i><par n="d/ir__vblex"/></e>

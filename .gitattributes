@@ -3,9 +3,11 @@
 /apertium-cat-cos.cat-cos.dix -text
 /apertium-cat-cos.cat-cos.lrx -text
 /apertium-cat-cos.cat-cos.t1x -text
+/apertium-cat-cos.cat.acx -text
 /apertium-cat-cos.cat.dix -text
 /apertium-cat-cos.cos-cat.lrx -text
 /apertium-cat-cos.cos-cat.t1x -text
+/apertium-cat-cos.cos.acx -text
 /apertium-cat-cos.cos.dix -text
 /apertium-cat-cos.post-cat.dix -text
 /cat-cos.prob -text svneol=unset#unset

@@ -1,9 +1,10 @@
 all:
 	cd cat ; sh update.sh ; cd ..
-	lt-comp lr apertium-cat-cos.cat-cos.dix cat-cos.autobil.bin
+	lt-comp lr apertium-cat-cos.cat-cos.dix cat-cos.autobil.bin apertium-cat-cos.cat.acx
 	lt-comp rl apertium-cat-cos.cat-cos.dix cos-cat.autobil.bin
 	lt-comp rl apertium-cat-cos.cos.dix cat-cos.autogen.bin
-	lt-comp lr apertium-cat-cos.cos.dix cos-cat.automorf.bin
+	lt-comp lr apertium-cat-cos.cos.dix cos-cat.automorf.bin apertium-cat-cos.cos.acx
+	lt-comp lr apertium-cat-cos.post-cos.dix cat-cos.autopgen.bin
 	lt-comp lr apertium-cat-cos.post-cat.dix cos-cat.autopgen.bin
 	lrx-comp apertium-cat-cos.cat-cos.lrx cat-cos.autolex.bin
 	lrx-comp apertium-cat-cos.cos-cat.lrx cos-cat.autolex.bin
