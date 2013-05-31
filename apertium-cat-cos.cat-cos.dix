@@ -136,13 +136,18 @@
     <e><p><l>u<s n="num"/></l><r>unu<s n="num"/></r></p></e>
     <e><p><l>dos<s n="num"/></l><r>dui<s n="num"/></r></p></e>
     <e><p><l>tres<s n="num"/></l><r>trè<s n="num"/></r></p></e>
-    <e><p><l>sis<s n="num"/></l><r>sei<s n="num"/></r></p></e>
+    <e><p><l>quatre<s n="num"/></l><r>quattru<s n="num"/></r></p></e>
     <e><p><l>cinc<s n="num"/></l><r>cinque<s n="num"/></r></p></e>
+    <e><p><l>sis<s n="num"/></l><r>sei<s n="num"/></r></p></e>
+    <e><p><l>set<s n="num"/></l><r>sette<s n="num"/></r></p></e>
+    <e><p><l>vuit<s n="num"/></l><r>ottu<s n="num"/></r></p></e>
+    <e><p><l>nou<s n="num"/></l><r>nove<s n="num"/></r></p></e>
 
     <!-- SECTION: Nouns -->
 
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>acqua<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ciència<s n="n"/><s n="f"/></l><r>scienza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cosmologia<s n="n"/><s n="f"/></l><r>cosmolugia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>traducció<s n="n"/><s n="f"/></l><r>traduzzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>relació<s n="n"/><s n="f"/></l><r>relazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tradició<s n="n"/><s n="f"/></l><r>tradizione<s n="n"/><s n="f"/></r></p></e>
@@ -153,6 +158,7 @@
     <e><p><l>calendari<s n="n"/><s n="m"/></l><r>calendariu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>arbre<s n="n"/><s n="m"/></l><r>arburu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cadira<s n="n"/><s n="f"/></l><r>sedia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>força<s n="n"/><s n="f"/></l><r>forza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>àrea<s n="n"/><s n="f"/></l><r>area<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>paraula<s n="n"/><s n="f"/></l><r>parola<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>distribució<s n="n"/><s n="f"/></l><r>distribuzione<s n="n"/><s n="f"/></r></p></e>
@@ -175,11 +181,14 @@
     <e><p><l>mare<s n="n"/><s n="f"/></l><r>madre<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ocell<s n="n"/><s n="m"/></l><r>acellu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>resposta<s n="n"/><s n="f"/></l><r>risposta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>filosofia<s n="n"/><s n="f"/></l><r>filosofia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>taula<s n="n"/><s n="f"/></l><r>tavulinu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>temps<s n="n"/><s n="m"/></l><r>tempu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>projecte<s n="n"/><s n="m"/></l><r>prugettu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mes<s n="n"/><s n="m"/></l><r>mese<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pregunta<s n="n"/><s n="f"/></l><r>dumanda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>matèria<s n="n"/><s n="f"/></l><r>materia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>energia<s n="n"/><s n="f"/></l><r>energia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>setmana<s n="n"/><s n="f"/></l><r>sittimana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>regió<s n="n"/><s n="f"/></l><r>regione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>informació<s n="n"/><s n="f"/></l><r>infurmazione<s n="n"/><s n="f"/></r></p></e>
@@ -191,11 +200,18 @@
     <e><p><l>escriptura<s n="n"/><s n="f"/></l><r>scrittura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>llengua<s n="n"/><s n="f"/></l><r>lingua<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>disposició<s n="n"/><s n="f"/></l><r>dispusizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>investigació<s n="n"/><s n="f"/></l><r>ricerca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>manifestació<s n="n"/><s n="f"/></l><r>manifestazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>física<s n="n"/><s n="f"/></l><r>fisica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>natura<s n="n"/><s n="f"/></l><r>natura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nen<s n="n"/><s n="f"/></l><r>zitellu<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nen<s n="n"/><s n="m"/></l><r>zitellu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fenomen<s n="n"/><s n="m"/></l><r>fenomenu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>procés<s n="n"/><s n="m"/></l><r>processu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>final<s n="n"/><s n="m"/></l><r>finale<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>comportament<s n="n"/><s n="m"/></l><r>cumportamentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sentit<s n="n"/><s n="m"/></l><r>sensu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>segle<s n="n"/><s n="m"/></l><r>seculu<s n="n"/><s n="m"/></r></p></e>
 
     <!--<e><p><l>riu<s n="n"/><s n="m"/></l><r>@riu<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>so<s n="n"/><s n="m"/></l><r>@so<s n="n"/><s n="m"/></r></p></e>-->
@@ -223,6 +239,10 @@
     <e><p><l>físic<s n="adj"/></l><r>fisicu<s n="adj"/></r></p></e>
     <e><p><l>grec<s n="adj"/></l><r>grecu<s n="adj"/></r></p></e>
     <e><p><l>recíproc<s n="adj"/></l><r>riciprucu<s n="adj"/></r></p></e>
+    <e><p><l>atòmic<s n="adj"/></l><r>atomicu<s n="adj"/></r></p></e>
+    <e><p><l>subatòmic<s n="adj"/></l><r>subatomicu<s n="adj"/></r></p></e>
+    <e><p><l>fonamental<s n="adj"/></l><r>fondamentale<s n="adj"/></r></p></e>
+    <e><p><l>ordinari<s n="adj"/></l><r>ordinariu<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -319,6 +339,7 @@
     <e><p><l>conéixer<s n="vblex"/></l><r>cunnosce<s n="vblex"/></r></p></e>
     <e><p><l>entendre<s n="vblex"/></l><r>capisce<s n="vblex"/></r></p></e>
     <e><p><l>considerar<s n="vblex"/></l><r>cunsiderà<s n="vblex"/></r></p></e>
+    <e><p><l>estudiar<s n="vblex"/></l><r>studià<s n="vblex"/></r></p></e>
 
     <!--<e><p><l>amagar<s n="vblex"/></l><r>@amagar<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>encantar<s n="vblex"/></l><r>@encantar<s n="vblex"/></r></p></e>-->

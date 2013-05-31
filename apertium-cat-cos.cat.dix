@@ -75654,13 +75654,17 @@
 <!-- adj.xml -->
 
 
+<e lm="atòmic"><i>atòmi</i><par n="acadèmi/c__adj"/></e>
 <e lm="físic"><i>físi</i><par n="acadèmi/c__adj"/></e>
+<e lm="fonamental"><i>fonamental</i><par n="abdominal__adj"/></e>
 <e lm="grec"><i>gre</i><par n="ce/c__adj"/></e>
 <e lm="històric"><i>històri</i><par n="acadèmi/c__adj"/></e>
 <e lm="modern"><i>modern</i><par n="alt__adj"/></e>
 <e lm="natural"><i>natural</i><par n="abdominal__adj"/></e>
+<e lm="ordinari"><i>ordin</i><par n="adjudicat/ari__adj"/></e>
 <e lm="recíproc"><i>recípro</i><par n="acadèmi/c__adj"/></e>
 <e lm="social"><i>social</i><par n="abdominal__adj"/></e>
+<e lm="subatòmic" a="prompsit2uoc"><i>subatòmi</i><par n="acadèmi/c__adj"/></e>
 <e lm="terrestre"><i>terrestre</i><par n="abdominal__adj"/></e>
 <e lm="vell"><i>vell</i><par n="alt__adj"/></e>
 <!-- adv.xml -->
@@ -75727,9 +75731,13 @@
 
 <e lm="cinc"><i>cinc</i><par n="sis__num"/></e>
 <e lm="dos"><i>d</i><par n="cinquanta-d/os__num"/></e>
+<e lm="nou"><i>nou</i><par n="sis__num"/></e>
+<e lm="quatre"><i>quatre</i><par n="sis__num"/></e>
+<e lm="set"><i>set</i><par n="sis__num"/></e>
 <e lm="sis"><i>sis</i><par n="sis__num"/></e>
 <e lm="tres"><i>tres</i><par n="sis__num"/></e>
 <e lm="u"><i>u</i><par n="cinquanta-u__num"/></e>
+<e lm="vuit"><i>vuit</i><par n="sis__num"/></e>
 <!-- n.xml -->
 
 
@@ -75746,13 +75754,20 @@
 <e lm="cap"><i>cap</i><par n="accessibilitat__n"/></e>
 <e lm="casa"><i>cas</i><par n="abell/a__n"/></e>
 <e lm="ciència"><i>ciènci</i><par n="abell/a__n"/></e>
+<e lm="comportament"><i>comportament</i><par n="abric__n"/></e>
 <e lm="comunitat"><i>comunitat</i><par n="accessibilitat__n"/></e>
+<e lm="cosmologia" a="prompsit2uoc"><i>cosmologi</i><par n="abell/a__n"/></e>
 <e lm="disposició"><i>disposici</i><par n="acci/ó__n"/></e>
 <e lm="distribució"><i>distribuci</i><par n="acci/ó__n"/></e>
 <e lm="dona"><i>don</i><par n="abell/a__n"/></e>
+<e lm="energia"><i>energi</i><par n="abell/a__n"/></e>
 <e lm="escriptura"><i>escriptur</i><par n="abell/a__n"/></e>
 <e lm="estudi"><i>estudi</i><par n="abric__n"/></e>
 <e lm="fenomen"><i>fen</i><par n="fen/omen__n"/></e>
+<e lm="filosofia"><i>filosofi</i><par n="abell/a__n"/></e>
+<e lm="final"><i>final</i><par n="abric__n"/></e>
+<e lm="física"><i>físi</i><par n="acústi/ca__n"/></e>
+<e lm="força"><i>for</i><par n="adre/ça__n"/></e>
 <e lm="gat"><i>gat</i><par n="senyor__n"/></e>
 <e lm="gent"><i>gent</i><par n="accessibilitat__n"/></e>
 <e lm="germà"><i>germ</i><par n="americ/à__n"/></e>
@@ -75760,13 +75775,16 @@
 <e lm="home"><i>h</i><par n="h/ome__n"/></e>
 <e lm="hora"><i>hor</i><par n="abell/a__n"/></e>
 <e lm="informació"><i>informaci</i><par n="acci/ó__n"/></e>
+<e lm="investigació"><i>investigaci</i><par n="acci/ó__n"/></e>
 <e lm="jardí"><i>jard</i><par n="boc/í__n"/></e>
 <e lm="joc"><i>joc</i><par n="abric__n"/></e>
 <e lm="llengua"><i>lleng</i><par n="aig/ua__n"/></e>
 <e lm="mà"><i>m</i><par n="m/à__n"/></e>
 <e lm="manifestació"><i>manifestaci</i><par n="acci/ó__n"/></e>
 <e lm="mare"><i>mare</i><par n="accessibilitat__n"/></e>
+<e lm="matèria"><i>matèri</i><par n="abell/a__n"/></e>
 <e lm="mes"><i>mes</i><par n="as__n"/></e>
+<e lm="natura"><i>natur</i><par n="abell/a__n"/></e>
 <e lm="nen"><i>nen</i><par n="senyor__n"/></e>
 <e lm="nom"><i>nom</i><par n="abric__n"/></e>
 <e lm="objecte"><i>objecte</i><par n="abric__n"/></e>
@@ -75778,6 +75796,8 @@
 <e lm="regió"><i>regi</i><par n="acci/ó__n"/></e>
 <e lm="relació"><i>relaci</i><par n="acci/ó__n"/></e>
 <e lm="resposta"><i>respost</i><par n="abell/a__n"/></e>
+<e lm="segle"><i>segle</i><par n="abric__n"/></e>
+<e lm="sentit"><i>sentit</i><par n="abric__n"/></e>
 <e lm="setmana"><i>setman</i><par n="abell/a__n"/></e>
 <e lm="superfície"><i>superfície</i><par n="accessibilitat__n"/></e>
 <e lm="taula"><i>taul</i><par n="abell/a__n"/></e>
@@ -75865,6 +75885,7 @@
 <e lm="escriure"><i>escri</i><par n="adscri/ure__vblex"/></e>
 <e lm="esperar"><i>esper</i><par n="abander/ar__vblex"/></e>
 <e lm="estar"><i>es</i><par n="es/tar__vblex"/></e>
+<e lm="estudiar"><i>estudi</i><par n="acarici/ar__vblex"/></e>
 <e lm="fer"><i>f</i><par n="f/er__vblex"/></e>
 <e lm="haver"><i/><par n="haver__vbhaver"/></e>
 <e lm="hi ha"><p><l>hi<b/>ha</l>                  <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>

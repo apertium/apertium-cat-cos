@@ -177,6 +177,16 @@
     </pardef>
 
     <!-- SECTION: Numerals -->
+
+    <pardef n="quattru__num">
+      <e><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="dui__num">
+      <e><p><l></l><r><s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>e</l><r><s n="num"/><s n="f"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Nouns -->
 
     <pardef n="ann/u__n">
@@ -187,6 +197,11 @@
     <pardef n="scienz/a__n">
       <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ricerc/a__n">
+      <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>he</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="relazion/e__n">
@@ -626,6 +641,16 @@
     <e lm="vi"><i>vi</i><par n="vi__prn"/></e>
 
     <!-- SECTION: Numerals -->
+
+    <e lm="dui"><i>dui</i><par n="dui__num"/></e>
+    <e lm="trè"><i>trè</i><par n="quattru__num"/></e>
+    <e lm="quattru"><i>quattru</i><par n="quattru__num"/></e>
+    <e lm="cinque"><i>cinque</i><par n="quattru__num"/></e>
+    <e lm="sei"><i>sei</i><par n="quattru__num"/></e>
+    <e lm="sette"><i>sette</i><par n="quattru__num"/></e>
+    <e lm="ottu"><i>ottu</i><par n="quattru__num"/></e>
+    <e lm="nove"><i>nove</i><par n="quattru__num"/></e>
+
     <!-- SECTION: Nouns -->
 
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
@@ -637,6 +662,10 @@
     <e lm="processu"><i>process</i><par n="zitell/u__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
+    <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
+    <e lm="terra"><i>terr</i><par n="scienz/a__n"/></e>
+
+    <e lm="ricerca"><i>ricerc</i><par n="ricerc/a__n"/></e>
 
     <e lm="traduzzione"><i>traduzzion</i><par n="relazion/e__n"/></e>
     <e lm="relazione"><i>relazion</i><par n="relazion/e__n"/></e>
@@ -692,6 +721,7 @@
     <e lm="aspittà"><i>aspitt</i><par n="parl/à__vblex"/></e>
     <e lm="cantà"><i>cant</i><par n="parl/à__vblex"/></e>
     <e lm="buscà"><i>busc</i><par n="parl/à__vblex"/></e>
+    <e lm="cunsiderà"><i>cunsider</i><par n="parl/à__vblex"/></e>
 
     <e lm="fidià"><i>fid</i><par n="fid/ià__vblex"/></e>
     <e lm="tuccà"><i>t</i><par n="t/uccà__vblex"/></e>
