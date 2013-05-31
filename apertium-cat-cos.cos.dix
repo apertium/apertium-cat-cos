@@ -2,7 +2,10 @@
   <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZ</alphabet>
   <sdefs>
     <sdef n="n"        c="Sustantiu"/>
+    <sdef n="np"       c="Nom propi"/>
     <sdef n="adv"      c="Adverbi"/>
+    <sdef n="pr"       c="Preposició"/>
+    <sdef n="num"      c="Numeral"/>
     <sdef n="adj"      c="Adjectiu"/>
     <sdef n="det"      c="Determinant"/>
     <sdef n="prn"      c="Pronoun"/>
@@ -16,6 +19,8 @@
     <sdef n="pro"      c="Proclític"/>
     <sdef n="ref"      c="Reflexiu"/>
 
+    <sdef n="ant"      c="Antròponim"/>
+
     <sdef n="inf"      c="Infinitiu"/>
     <sdef n="ger"      c="Gerundi"/>
     <sdef n="pp"       c="Participiu"/>
@@ -24,6 +29,7 @@
     <sdef n="pis"      c=""/>
     <sdef n="cni"      c=""/>
     <sdef n="ifi"      c=""/>
+    <sdef n="fti"      c=""/>
 
     <sdef n="m"        c="Masculí"/>
     <sdef n="f"        c="Feminí"/>
@@ -37,13 +43,58 @@
     <sdef n="pl"       c="Plural"/>
     <sdef n="sp"       c="Singular / plural"/>
   
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="sent"    c="Sentence marker"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquot"   c="Left quote"/>
+    <sdef n="rquot"   c="Right quote"/>
+    <sdef n="guio"    c="Hyphen"/>
+    <sdef n="apos"    c="Apostrophe"/>
+
   </sdefs>
 
   <pardefs> 
 
     <!-- SECTION: Miscellaneous -->
+
+    <pardef n="separa">
+      <e><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="cometa">
+      <e><re>[’'‘]</re><p><l/><r><s n="apos"/></r></p></e>
+    </pardef>
+
+    <pardef n="guionet">
+      <e>       <p><l>-</l><r>-<s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e>       <p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l/><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l/><r><s n="rpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="numeros">
+      <e><re>[0-9]+([., ][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
+
+
+
     <!-- SECTION: Conjunctions -->
     <!-- SECTION: Prepositions -->
+
+    <pardef n="di__pr">
+      <e>       <p><l></l><r><s n="pr"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Determiners -->
 
     <pardef n="/u__det">
@@ -57,7 +108,6 @@
       <e><p><l>u</l><r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
-
 
     <!-- SECTION: Pronouns -->
 
@@ -84,6 +134,16 @@
     <!-- SECTION: Numerals -->
     <!-- SECTION: Nouns -->
     <!-- SECTION: Proper nouns -->
+
+    <pardef n="Jaume__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Maria__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
+
     <!-- SECTION: Adjectives -->
 
     <pardef n="vechj/u__adj">
@@ -198,13 +258,52 @@
 
     <pardef n="v/ulè__vblex">
       <e><p><l>ulè</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ulendu</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
+
       <e><p><l>ogliu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>oli</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ole</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ulemu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ulete</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>olenu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ulia</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulii</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ulia</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uliamu</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uliate</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ulianu</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>olsi</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulisti</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>olse</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>olsimu</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uliste</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>olsenu</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>uleraghju</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulerai</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ulerà</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uleremu</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ulerete</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>uleranu</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ulsutu</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ulsuta</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ulsute</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ulsuti</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="t/ene__vblex">
+      <e><p><l>ene</l><r>ene<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>engu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>eni</l><r>ene<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ene</l><r>ene<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>inemu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>inite</l><r>ene<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>enenu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
 
 
 
@@ -220,6 +319,10 @@
     <!-- SECTION: Miscellaneous -->
     <!-- SECTION: Conjunctions -->
     <!-- SECTION: Prepositions -->
+
+    <e lm="di"><i>di</i><par n="di__pr"/></e>
+    <e lm="à"><i>à</i><par n="di__pr"/></e>
+
     <!-- SECTION: Determiners -->
 
     <e lm="u"><i></i><par n="/u__det"/></e>
@@ -236,6 +339,10 @@
     <!-- SECTION: Numerals -->
     <!-- SECTION: Nouns -->
     <!-- SECTION: Proper nouns -->
+
+    <e lm="Jaume"><i>Jaume</i><par n="Jaume__np"/></e>
+    <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
+
     <!-- SECTION: Adjectives -->
 
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
@@ -261,6 +368,7 @@
     <e lm="dà"><i>d</i><par n="d/à__vblex"/></e>
     <e lm="stà"><i>st</i><par n="d/à__vblex"/></e>
     <e lm="dì"><i>d</i><par n="d/ì__vblex"/></e>
+    <e lm="tene"><i>t</i><par n="t/ene__vblex"/></e>
 
     <e lm="parlà"><i>parl</i><par n="parl/à__vblex"/></e>
     <e lm="truvà"><i>truv</i><par n="parl/à__vblex"/></e>
@@ -274,4 +382,14 @@
 
 
   </section>
+  <section id="final" type="inconditional">
+    <e><par n="separa"/></e>
+    <e><par n="numeros"/></e>
+    <e><par n="cometa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="guionet"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+  </section>
+
 </dictionary>

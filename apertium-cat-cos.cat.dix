@@ -75684,9 +75684,19 @@
 <!-- det.xml -->
 
 
+<e lm="el meu"><par n="/el_meu__det"/></e>
+<e lm="el nostre"><par n="/el_nostre__det"/></e>
 <e lm="el"><par n="/el__det"/></e>
+<e lm="el seu"><par n="/el_seu__det"/></e>
+<e lm="el teu"><par n="/el_teu__det"/></e>
+<e lm="el vostre"><par n="/el_vostre__det"/></e>
 <e lm="un"><i>un</i><par n="algun__det"/></e>
+<e r="RL" lm="el meu"><p><l><a/>el</l>            <r>el<b/></r></p><par n="~el/meu__det"/></e>
+<e r="RL" lm="el nostre"><p><l><a/>el</l>         <r>el<b/></r></p><par n="~el/nostre__det"/></e>
 <e r="RL" lm="el"><p><l><a/></l>                  <r>e</r></p><par n="~/l__det"/></e>
+<e r="RL" lm="el seu"><p><l><a/>el</l>            <r>el<b/></r></p><par n="~el/seu__det"/></e>
+<e r="RL" lm="el teu"><p><l><a/>el</l>            <r>el<b/></r></p><par n="~el/teu__det"/></e>
+<e r="RL" lm="el vostre"><p><l><a/>el</l>         <r>el<b/></r></p><par n="~el/vostre__det"/></e>
 <!-- np.xml -->
 
 
@@ -75706,11 +75716,13 @@
 <e lm="animal"><i>animal</i><par n="abric__n"/></e>
 <e lm="any"><i>any</i><par n="abric__n"/></e>
 <e lm="arbre"><i>arbre</i><par n="abric__n"/></e>
+<e lm="article"><i>article</i><par n="abric__n"/></e>
 <e lm="cadira"><i>cadir</i><par n="abell/a__n"/></e>
 <e lm="calor"><i>calor</i><par n="accessibilitat__n"/></e>
 <e lm="cap"><i>cap</i><par n="abric__n"/></e>
 <e lm="cap"><i>cap</i><par n="accessibilitat__n"/></e>
 <e lm="casa"><i>cas</i><par n="abell/a__n"/></e>
+<e lm="comunitat"><i>comunitat</i><par n="accessibilitat__n"/></e>
 <e lm="gat"><i>gat</i><par n="senyor__n"/></e>
 <e lm="gent"><i>gent</i><par n="accessibilitat__n"/></e>
 <e lm="germà"><i>germ</i><par n="americ/à__n"/></e>
@@ -75720,9 +75732,13 @@
 <e lm="joc"><i>joc</i><par n="abric__n"/></e>
 <e lm="mà"><i>m</i><par n="m/à__n"/></e>
 <e lm="mare"><i>mare</i><par n="accessibilitat__n"/></e>
+<e lm="mes"><i>mes</i><par n="as__n"/></e>
+<e lm="nom"><i>nom</i><par n="abric__n"/></e>
 <e lm="ocell"><i>ocell</i><par n="abric__n"/></e>
 <e lm="pregunta"><i>pregunt</i><par n="abell/a__n"/></e>
+<e lm="projecte"><i>projecte</i><par n="abric__n"/></e>
 <e lm="resposta"><i>respost</i><par n="abell/a__n"/></e>
+<e lm="setmana"><i>setman</i><par n="abell/a__n"/></e>
 <e lm="taula"><i>taul</i><par n="abell/a__n"/></e>
 <e lm="temps"><i>temps</i><par n="campus__n"/></e>
 <e lm="ull"><i>ull</i><par n="abric__n"/></e>
@@ -75736,19 +75752,27 @@
 
 
 <e lm="ell"><i>ell</i><par n="ell__prn"/></e>
+<e lm="el meu"><par n="/el_meu__prn"/></e>
+<e lm="el nostre"><par n="/el_nostre__prn"/></e>
+<e lm="el seu"><par n="/el_seu__prn"/></e>
+<e lm="el teu"><par n="/el_teu__prn"/></e>
+<e lm="el vostre"><par n="/el_vostre__prn"/></e>
 <e lm="jo"><i>jo</i><par n="amb_mi__prn"/></e>
 <e lm="nosaltres"><i>nosaltres</i><par n="nosaltres__prn"/></e>
+<e lm="res"><i>res</i><par n="allò__prn"/></e>
 <e lm="tu"><i>tu</i><par n="amb_tu__prn"/></e>
 <e lm="vosaltres"><i>vosaltres</i><par n="vosaltres__prn"/></e>
 <e r="LR" lm="em"><p><l>em</l>                    <r>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="ens"><i>ens</i><par n="ens__prn"/></e>
 <e r="LR" lm="es"><p><l>es</l>                    <r>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" lm="et"><i>et</i><par n="et__prn"/></e>
+<e r="LR" lm="li"><p><l>li</l>                    <r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="us"><i>us</i><par n="us__prn"/></e>
 <e r="RL" lm="em"><p><l><a/>em</l>                <r>em</r></p><par n="~em__prn"/></e>
 <e r="RL" lm="ens"><p><l><a/>ens</l>              <r>ens</r></p><par n="ens__prn"/></e>
 <e r="RL" lm="es"><p><l><a/>es</l>                <r>es</r></p><par n="hom__prn"/></e>
 <e r="RL" lm="et"><p><l><a/>et</l>                <r>et</r></p><par n="et__prn"/></e>
+<e r="RL" lm="li"><p><l><a/></l>                  <r>l</r></p><par n="~/i__prn"/></e>
 <e r="RL" lm="us"><p><l><a/>us</l>                <r>us</r></p><par n="us__prn"/></e>
 <!-- pr.xml -->
 
@@ -75761,6 +75785,7 @@
 <!-- rel.xml -->
 
 
+<e lm="que"><i>que</i><par n="que__rel"/></e>
 <e r="LR" lm="del qual"><p><l>del<b/>qual</l>     <r>de<s n="pr"/><j/>el<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR" lm="dels quals"><p><l>dels<b/>quals</l> <r>de<s n="pr"/><j/>el<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL" lm="del qual"><i>de</i><par n="de/l_qual__rel"/></e>
@@ -75769,6 +75794,7 @@
 
 <e lm="acabar"><i>acab</i><par n="abander/ar__vblex"/></e>
 <e lm="agradar"><i>agrad</i><par n="abander/ar__vblex"/></e>
+<e lm="ajudar"><i>ajud</i><par n="abander/ar__vblex"/></e>
 <e lm="anar"><par n="/anar__vblex"/></e>
 <e lm="beure"><i>be</i><par n="be/ure__vblex"/></e>
 <e lm="buscar"><i>bus</i><par n="abo/car__vblex"/></e>
@@ -75779,6 +75805,7 @@
 <e lm="dormir"><i>dorm</i><par n="ajup/ir__vblex"/></e>
 <e lm="eixir"><par n="/eixir__vblex"/></e>
 <e lm="escoltar"><i>escolt</i><par n="abander/ar__vblex"/></e>
+<e lm="escriure"><i>escri</i><par n="adscri/ure__vblex"/></e>
 <e lm="esperar"><i>esper</i><par n="abander/ar__vblex"/></e>
 <e lm="estar"><i>es</i><par n="es/tar__vblex"/></e>
 <e lm="fer"><i>f</i><par n="f/er__vblex"/></e>

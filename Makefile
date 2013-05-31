@@ -1,4 +1,5 @@
 all:
+	cd cat ; sh update.sh ; cd ..
 	lt-comp lr apertium-cat-cos.cat-cos.dix cat-cos.autobil.bin
 	lt-comp rl apertium-cat-cos.cat-cos.dix cos-cat.autobil.bin
 	lt-comp rl apertium-cat-cos.cos.dix cat-cos.autogen.bin
@@ -11,6 +12,7 @@ all:
 	cp *.mode modes/
 	lt-comp lr apertium-cat-cos.cat.dix cat-cos.automorf.bin
 	lt-comp rl apertium-cat-cos.cat.dix cos-cat.autogen.bin
+
 
 clean:
 	rm -rf *.bin *.mode modes

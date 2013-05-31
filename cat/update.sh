@@ -115,4 +115,4 @@ echo "</section>" >> $DIX
 T=`expr $LENGTH - $TAIL`;
 tail -n $T apertium-cat-cos.cat.dixtmp1 >> $DIX;
 
-#cp cat.dix ../apertium-cat-cos.cat.dix
+cp cat.dix ../apertium-cat-cos.cat.dix

@@ -12,6 +12,7 @@
     <sdef n="cnjadv"   c="Adverbial conjunction"/>
     <sdef n="det"      c="Determinant"/>
     <sdef n="prn"      c="Pronoun"/>
+    <sdef n="rel"      c="Relative pronoun"/>
     <sdef n="vblex"    c="Verb"/>
     <sdef n="vbmod"    c="Modal verb"/>
     <sdef n="vbser"    c="Verb 'ser'"/>
@@ -21,6 +22,7 @@
     <sdef n="def"      c="Definit"/>
     <sdef n="pro"      c="Proclític"/>
     <sdef n="tn"       c="Tònic"/>
+    <sdef n="pos"      c="Possessiu"/>
     <sdef n="ref"      c="Reflexiu"/>
     <sdef n="ant"      c="Antropònim"/>
 
@@ -54,14 +56,14 @@
     <e><p><l>si<s n="cnjadv"/></l><r>sì<s n="cnjadv"/></r></p></e>
     <e><p><l>que<s n="cnjsub"/></l><r>chì<s n="cnjsub"/></r></p></e>
 
-
     <!-- SECTION: Prepositions -->
 
     <e><p><l>amb<s n="pr"/></l><r>cù<s n="pr"/></r></p></e>
-    <e><p><l>de<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
+    <e><p><l>de<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
     <e><p><l>per<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
     <e><p><l>sota<s n="pr"/></l><r>sottu<s n="pr"/></r></p></e>
     <e><p><l>a<s n="pr"/></l><r>à<s n="pr"/></r></p></e>
+    <e><p><l>a<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
 
     <!--<e><p><l>davant<s n="pr"/></l><r>@davant<s n="pr"/></r></p></e>-->
     <!--<e><p><l>dins de<s n="pr"/></l><r>@dins de<s n="pr"/></r></p></e>-->
@@ -71,7 +73,15 @@
     <e><p><l>el<s n="det"/><s n="def"/></l><r>u<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>un<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
 
+    <e><p><l>el<b/>meu<s n="det"/><s n="pos"/></l><r>u<b/>mè<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>el<b/>teu<s n="det"/><s n="pos"/></l><r>u<b/>tò<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>el<b/>seu<s n="det"/><s n="pos"/></l><r>u<b/>sò<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>el<b/>nostre<s n="det"/><s n="pos"/></l><r>u<b/>nostru<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>el<b/>vostre<s n="det"/><s n="pos"/></l><r>u<b/>vostru<s n="det"/><s n="pos"/></r></p></e>
+
     <!-- SECTION: Pronouns -->
+
+    <e><p><l>que<s n="rel"/></l><r>chì<s n="rel"/></r></p></e>
 
     <e><p><l>jo<s n="prn"/><s n="tn"/></l><r>eiu<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tù<s n="prn"/><s n="tn"/></r></p></e>
@@ -79,11 +89,21 @@
     <e><p><l>nosaltres<s n="prn"/><s n="tn"/></l><r>noi<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>vosaltres<s n="prn"/><s n="tn"/></l><r>voi<s n="prn"/><s n="tn"/></r></p></e>
 
+    <e><p><l>es<s n="prn"/><s n="pro"/></l><r>si<s n="prn"/><s n="pro"/></r></p></e>
+
     <e><p><l>em<s n="prn"/><s n="pro"/></l><r>mi<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>et<s n="prn"/><s n="pro"/></l><r>ti<s n="prn"/><s n="pro"/></r></p></e>
-    <e><p><l>es<s n="prn"/><s n="pro"/></l><r>si<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>li<s n="prn"/><s n="pro"/></l><r>li<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>ens<s n="prn"/><s n="pro"/></l><r>ci<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>us<s n="prn"/><s n="pro"/></l><r>vi<s n="prn"/><s n="pro"/></r></p></e>
+
+    <e><p><l>el<b/>meu<s n="prn"/><s n="tn"/></l><r>u<b/>meiu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>el<b/>teu<s n="prn"/><s n="tn"/></l><r>u<b/>toiu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>el<b/>seu<s n="prn"/><s n="tn"/></l><r>u<b/>soiu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>el<b/>nostre<s n="prn"/><s n="tn"/></l><r>u<b/>nostru<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>el<b/>vostre<s n="prn"/><s n="tn"/></l><r>u<b/>vostru<s n="prn"/><s n="tn"/></r></p></e>
+
+    <e><p><l>res<s n="prn"/><s n="tn"/></l><r>nulla<s n="prn"/><s n="tn"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
@@ -104,6 +124,7 @@
     <e><p><l>cap<s n="n"/><s n="m"/></l><r>capu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cap<s n="n"/><s n="m"/></l><r>testa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>comunitat<s n="n"/><s n="f"/></l><r>cumunità<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gat<s n="n"/><s n="m"/></l><r>ghjattu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gent<s n="n"/><s n="f"/></l><r>ghjente<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>germà<s n="n"/><s n="m"/></l><r>fratéllu<s n="n"/><s n="m"/></r></p></e>
@@ -118,8 +139,13 @@
     <e><p><l>resposta<s n="n"/><s n="f"/></l><r>risposta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>taula<s n="n"/><s n="f"/></l><r>tavulinu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>temps<s n="n"/><s n="m"/></l><r>tempu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>projecte<s n="n"/><s n="m"/></l><r>prugettu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mes<s n="n"/><s n="m"/></l><r>mese<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pregunta<s n="n"/><s n="f"/></l><r>dumanda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>setmana<s n="n"/><s n="f"/></l><r>sittimana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ull<s n="n"/><s n="m"/></l><r>ochju<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>article<s n="n"/><s n="m"/></l><r>articulu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nom<s n="n"/><s n="m"/></l><r>nomu<s n="n"/><s n="m"/></r></p></e>
 
     <!--<e><p><l>nen<s n="n"/><s n="f"/></l><r>@nen<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>nen<s n="n"/><s n="m"/></l><r>@nen<s n="n"/><s n="m"/></r></p></e>-->
@@ -135,8 +161,8 @@
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>Jaume<s n="np"/><s n="ant"/></l><r>Jaume<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Maria<s n="np"/><s n="ant"/></l><r>Maria<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jaume<s n="np"/><s n="ant"/></l><r>Jaume<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Maria<s n="np"/><s n="ant"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -172,7 +198,7 @@
     <e><p><l>estar<s n="vblex"/></l><r>esse<s n="vbser"/></r></p></e>
     <e><p><l>ser<s n="vbser"/></l><r>esse<s n="vbser"/></r></p></e>
     <e><p><l>haver<s n="vbhaver"/></l><r>avè<s n="vbhaver"/></r></p></e>
-    <e><p><l>tenir<s n="vblex"/></l><r>tene<s n="vbhaver"/></r></p></e>
+    <e><p><l>tenir<s n="vblex"/></l><r>tene<s n="vblex"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>pudè<s n="vbmod"/></r></p></e>
 
     <e><p><l>fer<s n="vblex"/></l><r>fà<s n="vblex"/></r></p></e>
@@ -213,6 +239,8 @@
     <e><p><l>capisce<s n="vblex"/></l><r>comprender<s n="vblex"/></r></p></e>
     <e><p><l>capisce<s n="vblex"/></l><r>entender<s n="vblex"/></r></p></e>
     <e><p><l>conocer<s n="vblex"/></l><r>cunnosce<s n="vblex"/></r></p></e>
+    <e><p><l>ajudar<s n="vblex"/></l><r>aiutà<s n="vblex"/></r></p></e>
+    <e><p><l>escriure<s n="vblex"/></l><r>scrive<s n="vblex"/></r></p></e>
 
     <!--<e><p><l>amagar<s n="vblex"/></l><r>@amagar<s n="vblex"/></r></p></e>-->
     <!--<e><p><l>encantar<s n="vblex"/></l><r>@encantar<s n="vblex"/></r></p></e>-->
