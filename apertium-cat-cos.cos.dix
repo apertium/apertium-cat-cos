@@ -266,6 +266,25 @@
       <e><p><l>siamu</l><r>esse<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>siate</l><r>esse<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>sianu</l><r>esse<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>era</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>eri</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>era</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>eramu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>erate</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>eranu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>fussimu</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>fussite</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>fussinu</l><r>esse<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>statu</l><r>esse<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>stata</l><r>esse<s n="vbser"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>stati</l><r>esse<s n="vbser"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>state</l><r>esse<s n="vbser"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="/avè__vbhaver">
@@ -274,6 +293,7 @@
 
       <e><p><l>aghju</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ai</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>hai</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>hà</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>avemu</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>emu</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -288,7 +308,45 @@
       <e><p><l>aghjhate</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>aghjanu</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>avia</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>avie</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>avia</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avìamu</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avìete</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avìanu</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>avessi</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>avesse</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>avessi</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avèssimu</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avèssete</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avèssinu</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ebbi</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>aveste</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ebbe</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ebbimu</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avestete</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ebbenu</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>averaghju</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>averai</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>averà</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>averemu</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>averete</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>averanu</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>averìa</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>averìi</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>averìa</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>averìamu</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>averìate</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>averìanu</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>avutu</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>avuta</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>avute</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>avuti</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="p/udè__vbmod">
@@ -410,10 +468,10 @@
       <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>acenu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e><p><l>attu</l><r>andà<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>atta</l><r>andà<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>atti</l><r>andà<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>atte</l><r>andà<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>attu</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>atta</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>atti</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>atte</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="d/à__vblex">
@@ -612,8 +670,11 @@
 
     <e lm="è"><i>è</i><par n="è__cnjcoo"/></e>
     <e lm="o"><i>o</i><par n="è__cnjcoo"/></e>
+    <e lm="ma"><i>ma</i><par n="è__cnjcoo"/></e>
+    <e lm="ni"><i>ni</i><par n="è__cnjcoo"/></e>
     <e lm="sì"><i>sì</i><par n="sì__cnjadv"/></e>
     <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
+    <e lm="parchì"><i>parchì</i><par n="sì__cnjadv"/></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -654,6 +715,7 @@
     <!-- SECTION: Nouns -->
 
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
+    <e lm="ghjornu"><i>ghjorn</i><par n="ann/u__n"/></e>
     <e lm="omu"><i>om</i><par n="ann/u__n"/></e>
     <e lm="ortu"><i>ort</i><par n="ann/u__n"/></e>
     <e lm="oggettu"><i>oggett</i><par n="ann/u__n"/></e>
@@ -663,7 +725,9 @@
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
+    <e lm="lingua"><i>lingu</i><par n="scienz/a__n"/></e>
     <e lm="terra"><i>terr</i><par n="scienz/a__n"/></e>
+    <e lm="acqua"><i>acqu</i><par n="scienz/a__n"/></e>
 
     <e lm="ricerca"><i>ricerc</i><par n="ricerc/a__n"/></e>
 
@@ -675,6 +739,54 @@
     <e lm="infurmazione"><i>infurmazion</i><par n="relazion/e__n"/></e>
     <e lm="dispusizione"><i>dispusizion</i><par n="relazion/e__n"/></e>
     <e lm="manifestazione"><i>manifestazion</i><par n="relazion/e__n"/></e>
+
+    <e lm="agglumerazione"><i>agglumerazion</i><par n="relazion/e__n"/></e>
+    <e lm="apparizione"><i>apparizion</i><par n="relazion/e__n"/></e>
+    <e lm="applicazione"><i>applicazion</i><par n="relazion/e__n"/></e>
+    <e lm="azzione"><i>azzion</i><par n="relazion/e__n"/></e>
+    <e lm="celebrazione"><i>celebrazion</i><par n="relazion/e__n"/></e>
+    <e lm="civilisazione"><i>civilisazion</i><par n="relazion/e__n"/></e>
+    <e lm="classificazione"><i>classificazion</i><par n="relazion/e__n"/></e>
+    <e lm="coalizione"><i>coalizion</i><par n="relazion/e__n"/></e>
+    <e lm="costituzione"><i>costituzion</i><par n="relazion/e__n"/></e>
+    <e lm="creazione"><i>creazion</i><par n="relazion/e__n"/></e>
+    <e lm="cumpetizione"><i>cumpetizion</i><par n="relazion/e__n"/></e>
+    <e lm="cumunicazione"><i>cumunicazion</i><par n="relazion/e__n"/></e>
+    <e lm="custellazione"><i>custellazion</i><par n="relazion/e__n"/></e>
+    <e lm="custituzione"><i>custituzion</i><par n="relazion/e__n"/></e>
+    <e lm="custruzzione"><i>custruzzion</i><par n="relazion/e__n"/></e>
+    <e lm="declinazione"><i>declinazion</i><par n="relazion/e__n"/></e>
+    <e lm="definizione"><i>definizion</i><par n="relazion/e__n"/></e>
+    <e lm="direzzione"><i>direzzion</i><par n="relazion/e__n"/></e>
+    <e lm="distinzione"><i>distinzion</i><par n="relazion/e__n"/></e>
+    <e lm="educazione"><i>educazion</i><par n="relazion/e__n"/></e>
+    <e lm="equazione"><i>equazion</i><par n="relazion/e__n"/></e>
+    <e lm="estinzione"><i>estinzion</i><par n="relazion/e__n"/></e>
+    <e lm="evuluzione"><i>evuluzion</i><par n="relazion/e__n"/></e>
+    <e lm="fundazione"><i>fundazion</i><par n="relazion/e__n"/></e>
+    <e lm="funzione"><i>funzion</i><par n="relazion/e__n"/></e>
+    <e lm="furmazione"><i>furmazion</i><par n="relazion/e__n"/></e>
+    <e lm="infurmazioni"><i>infurmazion</i><par n="relazion/e__n"/></e>
+    <e lm="interpretazione"><i>interpretazion</i><par n="relazion/e__n"/></e>
+    <e lm="navigazione"><i>navigazion</i><par n="relazion/e__n"/></e>
+    <e lm="nazione"><i>nazion</i><par n="relazion/e__n"/></e>
+    <e lm="occupazione"><i>occupazion</i><par n="relazion/e__n"/></e>
+    <e lm="opposizione"><i>opposizion</i><par n="relazion/e__n"/></e>
+    <e lm="osservazione"><i>osservazion</i><par n="relazion/e__n"/></e>
+    <e lm="populazione"><i>populazion</i><par n="relazion/e__n"/></e>
+    <e lm="posizione"><i>posizion</i><par n="relazion/e__n"/></e>
+    <e lm="produzzione"><i>produzzion</i><par n="relazion/e__n"/></e>
+    <e lm="prutezzione"><i>prutezzion</i><par n="relazion/e__n"/></e>
+    <e lm="pusizione"><i>pusizion</i><par n="relazion/e__n"/></e>
+    <e lm="relazione"><i>relazion</i><par n="relazion/e__n"/></e>
+    <e lm="rivoluzione"><i>rivoluzion</i><par n="relazion/e__n"/></e>
+    <e lm="situazione"><i>situazion</i><par n="relazion/e__n"/></e>
+    <e lm="soluzione"><i>soluzion</i><par n="relazion/e__n"/></e>
+    <e lm="spedizione"><i>spedizion</i><par n="relazion/e__n"/></e>
+    <e lm="tentazione"><i>tentazion</i><par n="relazion/e__n"/></e>
+    <e lm="transizione"><i>transizion</i><par n="relazion/e__n"/></e>
+    <e lm="variazione"><i>variazion</i><par n="relazion/e__n"/></e>
+    <e lm="unione"><i>union</i><par n="relazion/e__n"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -700,6 +812,37 @@
     <e lm="oghje"><i>oghje</i><par n="cusì__adv"/></e>
     <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
     <e lm="forse"><i>forse</i><par n="cusì__adv"/></e>
+
+    <e lm="ampiamente"><i>ampiamente</i><par n="cusì__adv"/></e>
+    <e lm="attualmente"><i>attualmente</i><par n="cusì__adv"/></e>
+    <e lm="cumunemente"><i>cumunemente</i><par n="cusì__adv"/></e>
+    <e lm="cuntemporaneamente"><i>cuntemporaneamente</i><par n="cusì__adv"/></e>
+    <e lm="definitivamente"><i>definitivamente</i><par n="cusì__adv"/></e>
+    <e lm="direttamente"><i>direttamente</i><par n="cusì__adv"/></e>
+    <e lm="esattamente"><i>esattamente</i><par n="cusì__adv"/></e>
+    <e lm="essenzialmente"><i>essenzialmente</i><par n="cusì__adv"/></e>
+    <e lm="estremamente"><i>estremamente</i><par n="cusì__adv"/></e>
+    <e lm="etimologicamente"><i>etimologicamente</i><par n="cusì__adv"/></e>
+    <e lm="facilmente"><i>facilmente</i><par n="cusì__adv"/></e>
+    <e lm="finalmente"><i>finalmente</i><par n="cusì__adv"/></e>
+    <e lm="ghjeneralmente"><i>ghjeneralmente</i><par n="cusì__adv"/></e>
+    <e lm="inizialmente"><i>inizialmente</i><par n="cusì__adv"/></e>
+    <e lm="notevolmente"><i>notevolmente</i><par n="cusì__adv"/></e>
+    <e lm="novamente"><i>novamente</i><par n="cusì__adv"/></e>
+    <e lm="particularmente"><i>particularmente</i><par n="cusì__adv"/></e>
+    <e lm="principalmente"><i>principalmente</i><par n="cusì__adv"/></e>
+    <e lm="prubabilmente"><i>prubabilmente</i><par n="cusì__adv"/></e>
+    <e lm="rapidamente"><i>rapidamente</i><par n="cusì__adv"/></e>
+    <e lm="raramente"><i>raramente</i><par n="cusì__adv"/></e>
+    <e lm="recentemente"><i>recentemente</i><par n="cusì__adv"/></e>
+    <e lm="rispettivamente"><i>rispettivamente</i><par n="cusì__adv"/></e>
+    <e lm="solamente"><i>solamente</i><par n="cusì__adv"/></e>
+    <e lm="specialmente"><i>specialmente</i><par n="cusì__adv"/></e>
+    <e lm="storicamente"><i>storicamente</i><par n="cusì__adv"/></e>
+    <e lm="successivamente"><i>successivamente</i><par n="cusì__adv"/></e>
+    <e lm="ufficialmente"><i>ufficialmente</i><par n="cusì__adv"/></e>
+    <e lm="verticalmente"><i>verticalmente</i><par n="cusì__adv"/></e>
+
 
     <!-- SECTION: Verbs -->
 
@@ -739,6 +882,12 @@
 
 
   </section>
+
+  <section id="apos" type="postblank">
+    <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
+  </section>
+
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>
     <e><par n="numeros"/></e>

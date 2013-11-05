@@ -75657,6 +75657,7 @@
 <e lm="atòmic"><i>atòmi</i><par n="acadèmi/c__adj"/></e>
 <e lm="físic"><i>físi</i><par n="acadèmi/c__adj"/></e>
 <e lm="fonamental"><i>fonamental</i><par n="abdominal__adj"/></e>
+<e lm="gran"><i>gran</i><par n="gran__adj"/></e>
 <e lm="grec"><i>gre</i><par n="ce/c__adj"/></e>
 <e lm="històric"><i>històri</i><par n="acadèmi/c__adj"/></e>
 <e lm="modern"><i>modern</i><par n="alt__adj"/></e>
@@ -75670,31 +75671,58 @@
 <!-- adv.xml -->
 
 
+<e lm="actualment"><i>actualment</i><par n="ahir__adv"/></e>
 <e lm="ahir"><i>ahir</i><par n="ahir__adv"/></e>
 <e lm="així"><i>així</i><par n="ahir__adv"/></e>
+<e lm="amplament"><i>amplament</i><par n="ahir__adv"/></e>
 <e lm="aquí"><i>aquí</i><par n="ahir__adv"/></e>
 <e lm="ara"><i>ara</i><par n="ahir__adv"/></e>
 <e lm="avui"><i>avui</i><par n="ahir__adv"/></e>
 <e lm="bé"><i>bé</i><par n="ahir__adv"/></e>
 <e lm="com"><i>com</i><par n="ahir__adv"/></e>
 <e lm="com"><i>com</i><par n="a_on__adv"/></e>
+<e lm="comunament" a="prompsit2uoc"><i>comunament</i><par n="ahir__adv"/></e>
+<e lm="contemporàniament"><i>contemporàniament</i><par n="ahir__adv"/></e>
+<e lm="definitivament"><i>definitivament</i><par n="ahir__adv"/></e>
 <e lm="demà"><i>demà</i><par n="ahir__adv"/></e>
+<e lm="directament"><i>directament</i><par n="ahir__adv"/></e>
 <e lm="encara"><i>encara</i><par n="ahir__adv"/></e>
 <e lm="enlloc" a="prompsit"><i>enlloc</i><par n="ahir__adv"/></e>
+<e lm="especialment"><i>especialment</i><par n="ahir__adv"/></e>
+<e lm="essencialment"><i>essencialment</i><par n="ahir__adv"/></e>
+<e lm="etimològicament"><i>etimològicament</i><par n="ahir__adv"/></e>
+<e lm="exactament"><i>exactament</i><par n="ahir__adv"/></e>
+<e lm="extremament" a="prompsit"><i>extremament</i><par n="ahir__adv"/></e>
+<e lm="fàcilment"><i>fàcilment</i><par n="ahir__adv"/></e>
+<e lm="finalment"><i>finalment</i><par n="ahir__adv"/></e>
 <e lm="fora"><i>fora</i><par n="ahir__adv"/></e>
+<e lm="generalment"><i>generalment</i><par n="ahir__adv"/></e>
+<e lm="històricament"><i>històricament</i><par n="ahir__adv"/></e>
+<e lm="inicialment"><i>inicialment</i><par n="ahir__adv"/></e>
 <e lm="llavors"><i>llavors</i><par n="ahir__adv"/></e>
 <e lm="mai"><i>mai</i><par n="ahir__adv"/></e>
 <e lm="massa"><i>massa</i><par n="ahir__adv"/></e>
 <e lm="més"><i>més</i><par n="ahir__adv"/></e>
 <e lm="no"><i>no</i><par n="ahir__adv"/></e>
+<e lm="notablement"><i>notablement</i><par n="ahir__adv"/></e>
+<e lm="novament"><i>novament</i><par n="ahir__adv"/></e>
+<e lm="oficialment"><i>oficialment</i><par n="ahir__adv"/></e>
 <e lm="on"><i>on</i><par n="on__adv"/></e>
+<e lm="particularment"><i>particularment</i><par n="ahir__adv"/></e>
 <e lm="per què"><i>per<b/>què</i><par n="a_on__adv"/></e>
 <e lm="poc"><i>poc</i><par n="ahir__adv"/></e>
+<e lm="principalment"><i>principalment</i><par n="ahir__adv"/></e>
 <e lm="probablement"><i>probablement</i><par n="ahir__adv"/></e>
 <e lm="prou"><i>prou</i><par n="ahir__adv"/></e>
 <e lm="quan"><i>quan</i><par n="a_on__adv"/></e>
+<e lm="ràpidament"><i>ràpidament</i><par n="ahir__adv"/></e>
+<e lm="rarament" a=" alseoane@gmail.com"><i>rarament</i><par n="ahir__adv"/></e>
+<e lm="recentment"><i>recentment</i><par n="ahir__adv"/></e>
 <e lm="sempre"><i>sempre</i><par n="ahir__adv"/></e>
+<e lm="solament"><i>solament</i><par n="ahir__adv"/></e>
+<e lm="successivament"><i>successivament</i><par n="ahir__adv"/></e>
 <e lm="també"><i>també</i><par n="ahir__adv"/></e>
+<e lm="verticalment"><i>verticalment</i><par n="ahir__adv"/></e>
 <!-- cnj.xml -->
 
 
@@ -75741,9 +75769,13 @@
 <!-- n.xml -->
 
 
+<e lm="acció"><i>acci</i><par n="acci/ó__n"/></e>
+<e lm="aglomeració"><i>aglomeraci</i><par n="acci/ó__n"/></e>
 <e lm="aigua"><i>aig</i><par n="aig/ua__n"/></e>
 <e lm="animal"><i>animal</i><par n="abric__n"/></e>
 <e lm="any"><i>any</i><par n="abric__n"/></e>
+<e lm="aparició"><i>aparici</i><par n="acci/ó__n"/></e>
+<e lm="aplicació"><i>aplicaci</i><par n="acci/ó__n"/></e>
 <e lm="arbre"><i>arbre</i><par n="abric__n"/></e>
 <e lm="àrea"><i>àre</i><par n="abell/a__n"/></e>
 <e lm="article"><i>article</i><par n="abric__n"/></e>
@@ -75753,21 +75785,46 @@
 <e lm="cap"><i>cap</i><par n="abric__n"/></e>
 <e lm="cap"><i>cap</i><par n="accessibilitat__n"/></e>
 <e lm="casa"><i>cas</i><par n="abell/a__n"/></e>
+<e lm="celebració"><i>celebraci</i><par n="acci/ó__n"/></e>
 <e lm="ciència"><i>ciènci</i><par n="abell/a__n"/></e>
+<e lm="ciutat"><i>ciutat</i><par n="accessibilitat__n"/></e>
+<e lm="civilització"><i>civilitzaci</i><par n="acci/ó__n"/></e>
+<e lm="classificació"><i>classificaci</i><par n="acci/ó__n"/></e>
+<e lm="coalició"><i>coalici</i><par n="acci/ó__n"/></e>
+<e lm="competició"><i>competici</i><par n="acci/ó__n"/></e>
 <e lm="comportament"><i>comportament</i><par n="abric__n"/></e>
+<e lm="comunicació"><i>comunicaci</i><par n="acci/ó__n"/></e>
 <e lm="comunitat"><i>comunitat</i><par n="accessibilitat__n"/></e>
+<e lm="constel·lació"><i>constel·laci</i><par n="acci/ó__n"/></e>
+<e lm="constel·lació" r="LR"><p><l>consteŀlaci</l><r>constel·laci</r></p><par n="acci/ó__n"/></e>
+<e lm="constitució"><i>constituci</i><par n="acci/ó__n"/></e>
+<e lm="construcció"><i>construcci</i><par n="acci/ó__n"/></e>
 <e lm="cosmologia" a="prompsit2uoc"><i>cosmologi</i><par n="abell/a__n"/></e>
+<e lm="creació"><i>creaci</i><par n="acci/ó__n"/></e>
+<e lm="declinació" a="prompsit"><i>declinaci</i><par n="acci/ó__n"/></e>
+<e lm="definició"><i>definici</i><par n="acci/ó__n"/></e>
+<e lm="dia"><i>di</i><par n="carism/a__n"/></e>
+<e lm="direcció"><i>direcci</i><par n="acci/ó__n"/></e>
 <e lm="disposició"><i>disposici</i><par n="acci/ó__n"/></e>
+<e lm="distinció"><i>distinci</i><par n="acci/ó__n"/></e>
 <e lm="distribució"><i>distribuci</i><par n="acci/ó__n"/></e>
 <e lm="dona"><i>don</i><par n="abell/a__n"/></e>
+<e lm="educació"><i>educaci</i><par n="acci/ó__n"/></e>
 <e lm="energia"><i>energi</i><par n="abell/a__n"/></e>
+<e lm="equació" a="prompsit2adn"><i>equaci</i><par n="acci/ó__n"/></e>
 <e lm="escriptura"><i>escriptur</i><par n="abell/a__n"/></e>
 <e lm="estudi"><i>estudi</i><par n="abric__n"/></e>
+<e lm="evolució"><i>evoluci</i><par n="acci/ó__n"/></e>
+<e lm="expedició"><i>expedici</i><par n="acci/ó__n"/></e>
+<e lm="extinció"><i>extinci</i><par n="acci/ó__n"/></e>
 <e lm="fenomen"><i>fen</i><par n="fen/omen__n"/></e>
 <e lm="filosofia"><i>filosofi</i><par n="abell/a__n"/></e>
 <e lm="final"><i>final</i><par n="abric__n"/></e>
 <e lm="física"><i>físi</i><par n="acústi/ca__n"/></e>
 <e lm="força"><i>for</i><par n="adre/ça__n"/></e>
+<e lm="formació"><i>formaci</i><par n="acci/ó__n"/></e>
+<e lm="funció"><i>funci</i><par n="acci/ó__n"/></e>
+<e lm="fundació"><i>fundaci</i><par n="acci/ó__n"/></e>
 <e lm="gat"><i>gat</i><par n="senyor__n"/></e>
 <e lm="gent"><i>gent</i><par n="accessibilitat__n"/></e>
 <e lm="germà"><i>germ</i><par n="americ/à__n"/></e>
@@ -75775,6 +75832,7 @@
 <e lm="home"><i>h</i><par n="h/ome__n"/></e>
 <e lm="hora"><i>hor</i><par n="abell/a__n"/></e>
 <e lm="informació"><i>informaci</i><par n="acci/ó__n"/></e>
+<e lm="interpretació"><i>interpretaci</i><par n="acci/ó__n"/></e>
 <e lm="investigació"><i>investigaci</i><par n="acci/ó__n"/></e>
 <e lm="jardí"><i>jard</i><par n="boc/í__n"/></e>
 <e lm="joc"><i>joc</i><par n="abric__n"/></e>
@@ -75784,28 +75842,45 @@
 <e lm="mare"><i>mare</i><par n="accessibilitat__n"/></e>
 <e lm="matèria"><i>matèri</i><par n="abell/a__n"/></e>
 <e lm="mes"><i>mes</i><par n="as__n"/></e>
+<e lm="nació"><i>naci</i><par n="acci/ó__n"/></e>
 <e lm="natura"><i>natur</i><par n="abell/a__n"/></e>
+<e lm="navegació"><i>navegaci</i><par n="acci/ó__n"/></e>
 <e lm="nen"><i>nen</i><par n="senyor__n"/></e>
 <e lm="nom"><i>nom</i><par n="abric__n"/></e>
 <e lm="objecte"><i>objecte</i><par n="abric__n"/></e>
+<e lm="observació"><i>observaci</i><par n="acci/ó__n"/></e>
 <e lm="ocell"><i>ocell</i><par n="abric__n"/></e>
+<e lm="ocupació"><i>ocupaci</i><par n="acci/ó__n"/></e>
+<e lm="oposició"><i>oposici</i><par n="acci/ó__n"/></e>
 <e lm="paraula"><i>paraul</i><par n="abell/a__n"/></e>
+<e lm="població"><i>poblaci</i><par n="acci/ó__n"/></e>
+<e lm="pont"><i>pont</i><par n="abric__n"/></e>
+<e lm="posició"><i>posici</i><par n="acci/ó__n"/></e>
 <e lm="pregunta"><i>pregunt</i><par n="abell/a__n"/></e>
 <e lm="procés"><i>proc</i><par n="acc/és__n"/></e>
+<e lm="producció"><i>producci</i><par n="acci/ó__n"/></e>
 <e lm="projecte"><i>projecte</i><par n="abric__n"/></e>
+<e lm="protecció"><i>protecci</i><par n="acci/ó__n"/></e>
 <e lm="regió"><i>regi</i><par n="acci/ó__n"/></e>
 <e lm="relació"><i>relaci</i><par n="acci/ó__n"/></e>
 <e lm="resposta"><i>respost</i><par n="abell/a__n"/></e>
+<e lm="revolució"><i>revoluci</i><par n="acci/ó__n"/></e>
 <e lm="segle"><i>segle</i><par n="abric__n"/></e>
 <e lm="sentit"><i>sentit</i><par n="abric__n"/></e>
 <e lm="setmana"><i>setman</i><par n="abell/a__n"/></e>
+<e lm="situació"><i>situaci</i><par n="acci/ó__n"/></e>
+<e lm="solució"><i>soluci</i><par n="acci/ó__n"/></e>
 <e lm="superfície"><i>superfície</i><par n="accessibilitat__n"/></e>
 <e lm="taula"><i>taul</i><par n="abell/a__n"/></e>
 <e lm="temps"><i>temps</i><par n="campus__n"/></e>
+<e lm="temptació"><i>temptaci</i><par n="acci/ó__n"/></e>
 <e lm="terra"><i>terr</i><par n="abell/a__n"/></e>
 <e lm="tradició"><i>tradici</i><par n="acci/ó__n"/></e>
 <e lm="traducció"><i>traducci</i><par n="acci/ó__n"/></e>
+<e lm="transició"><i>transici</i><par n="acci/ó__n"/></e>
 <e lm="ull"><i>ull</i><par n="abric__n"/></e>
+<e lm="unió"><i>uni</i><par n="acci/ó__n"/></e>
+<e lm="variació"><i>variaci</i><par n="acci/ó__n"/></e>
 <!-- preadv.xml -->
 
 

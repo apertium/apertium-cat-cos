@@ -9,5 +9,22 @@
   </char>
   <char value="&#183;">
     <equiv-char value="."/>
+    <equiv-char value="•"/>
   </char>
+  <char value="à">
+    <equiv-char value="a"/>
+  </char>
+  <char value="è">
+    <equiv-char value="e"/>
+  </char>
+  <char value="ì">
+    <equiv-char value="i"/>
+  </char>
+  <char value="ò">
+    <equiv-char value="o"/>
+  </char>
+  <char value="ù">
+    <equiv-char value="u"/>
+  </char>
+
 </analysis-chars>

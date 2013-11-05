@@ -151,6 +151,7 @@
     <e><p><l>traducció<s n="n"/><s n="f"/></l><r>traduzzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>relació<s n="n"/><s n="f"/></l><r>relazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tradició<s n="n"/><s n="f"/></l><r>tradizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ciutat<s n="n"/><s n="f"/></l><r>cità<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>animal<s n="n"/><s n="m"/></l><r>animale<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>objecte<s n="n"/><s n="m"/></l><r>oggettu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>estudi<s n="n"/><s n="m"/></l><r>studiu<s n="n"/><s n="m"/></r></p></e>
@@ -212,6 +213,7 @@
     <e><p><l>comportament<s n="n"/><s n="m"/></l><r>cumportamentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sentit<s n="n"/><s n="m"/></l><r>sensu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>segle<s n="n"/><s n="m"/></l><r>seculu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dia<s n="n"/><s n="m"/></l><r>ghjornu<s n="n"/><s n="m"/></r></p></e>
 
     <!--<e><p><l>riu<s n="n"/><s n="m"/></l><r>@riu<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>so<s n="n"/><s n="m"/></l><r>@so<s n="n"/><s n="m"/></r></p></e>-->
@@ -221,6 +223,57 @@
     <!--<e><p><l>atenció<s n="n"/><s n="f"/></l><r>@atenció<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>cop<s n="n"/><s n="m"/></l><r>@cop<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>maneta<s n="n"/><s n="f"/></l><r>@maneta<s n="n"/><s n="f"/></r></p></e>-->
+
+    <e><p><l>aglomeració<s n="n"/><s n="f"/></l><r>agglumerazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aparició<s n="n"/><s n="f"/></l><r>apparizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aplicació<s n="n"/><s n="f"/></l><r>applicazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>acció<s n="n"/><s n="f"/></l><r>azzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>celebració<s n="n"/><s n="f"/></l><r>celebrazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>civilització<s n="n"/><s n="f"/></l><r>civilisazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>classificació<s n="n"/><s n="f"/></l><r>classificazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>coalició<s n="n"/><s n="f"/></l><r>coalizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>constitució<s n="n"/><s n="f"/></l><r>costituzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>creació<s n="n"/><s n="f"/></l><r>creazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>competició<s n="n"/><s n="f"/></l><r>cumpetizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>comunicació<s n="n"/><s n="f"/></l><r>cumunicazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>constel·lació<s n="n"/><s n="f"/></l><r>custellazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>constitució<s n="n"/><s n="f"/></l><r>custituzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>construcció<s n="n"/><s n="f"/></l><r>custruzzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>declinació<s n="n"/><s n="f"/></l><r>declinazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>definició<s n="n"/><s n="f"/></l><r>definizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>direcció<s n="n"/><s n="f"/></l><r>direzzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>distinció<s n="n"/><s n="f"/></l><r>distinzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>educació<s n="n"/><s n="f"/></l><r>educazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>equació<s n="n"/><s n="f"/></l><r>equazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>extinció<s n="n"/><s n="f"/></l><r>estinzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>evolució<s n="n"/><s n="f"/></l><r>evuluzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fundació<s n="n"/><s n="f"/></l><r>fundazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>funció<s n="n"/><s n="f"/></l><r>funzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>formació<s n="n"/><s n="f"/></l><r>furmazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>informació<s n="n"/><s n="f"/></l><r>infurmazioni<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>interpretació<s n="n"/><s n="f"/></l><r>interpretazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>navegació<s n="n"/><s n="f"/></l><r>navigazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nació<s n="n"/><s n="f"/></l><r>nazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ocupació<s n="n"/><s n="f"/></l><r>occupazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oposició<s n="n"/><s n="f"/></l><r>opposizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>observació<s n="n"/><s n="f"/></l><r>osservazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>població<s n="n"/><s n="f"/></l><r>populazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>posició<s n="n"/><s n="f"/></l><r>posizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>producció<s n="n"/><s n="f"/></l><r>produzzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>protecció<s n="n"/><s n="f"/></l><r>prutezzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>posició<s n="n"/><s n="f"/></l><r>pusizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>relació<s n="n"/><s n="f"/></l><r>relazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>revolució<s n="n"/><s n="f"/></l><r>rivoluzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>situació<s n="n"/><s n="f"/></l><r>situazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>solució<s n="n"/><s n="f"/></l><r>soluzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>expedició<s n="n"/><s n="f"/></l><r>spedizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>temptació<s n="n"/><s n="f"/></l><r>tentazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>transició<s n="n"/><s n="f"/></l><r>transizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>variació<s n="n"/><s n="f"/></l><r>variazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>unió<s n="n"/><s n="f"/></l><r>unione<s n="n"/><s n="f"/></r></p></e>
+
+    <e><p><l>pont<s n="n"/><s n="m"/></l><r>ponte<s n="n"/><s n="m"/></r></p></e>
+
 
 
     <!-- SECTION: Proper nouns -->
@@ -243,6 +296,7 @@
     <e><p><l>subatòmic<s n="adj"/></l><r>subatomicu<s n="adj"/></r></p></e>
     <e><p><l>fonamental<s n="adj"/></l><r>fondamentale<s n="adj"/></r></p></e>
     <e><p><l>ordinari<s n="adj"/></l><r>ordinariu<s n="adj"/></r></p></e>
+    <e><p><l>gran<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -275,6 +329,36 @@
     <e><p><l>sempre<s n="adv"/></l><r>sempre<s n="adv"/></r></p></e>
     <e><p><l>demà<s n="adv"/></l><r>dumane<s n="adv"/></r></p></e>
     <e><p><l>aquí<s n="adv"/></l><r>quì<s n="adv"/></r></p></e>
+
+    <e><p><l>amplament<s n="adv"/></l><r>ampiamente<s n="adv"/></r></p></e>
+    <e><p><l>actualment<s n="adv"/></l><r>attualmente<s n="adv"/></r></p></e>
+    <e><p><l>comunament<s n="adv"/></l><r>cumunemente<s n="adv"/></r></p></e>
+    <e><p><l>contemporàniament<s n="adv"/></l><r>cuntemporaneamente<s n="adv"/></r></p></e>
+    <e><p><l>definitivament<s n="adv"/></l><r>definitivamente<s n="adv"/></r></p></e>
+    <e><p><l>directament<s n="adv"/></l><r>direttamente<s n="adv"/></r></p></e>
+    <e><p><l>exactament<s n="adv"/></l><r>esattamente<s n="adv"/></r></p></e>
+    <e><p><l>essencialment<s n="adv"/></l><r>essenzialmente<s n="adv"/></r></p></e>
+    <e><p><l>extremament<s n="adv"/></l><r>estremamente<s n="adv"/></r></p></e>
+    <e><p><l>etimològicament<s n="adv"/></l><r>etimologicamente<s n="adv"/></r></p></e>
+    <e><p><l>fàcilment<s n="adv"/></l><r>facilmente<s n="adv"/></r></p></e>
+    <e><p><l>finalment<s n="adv"/></l><r>finalmente<s n="adv"/></r></p></e>
+    <e><p><l>generalment<s n="adv"/></l><r>ghjeneralmente<s n="adv"/></r></p></e>
+    <e><p><l>inicialment<s n="adv"/></l><r>inizialmente<s n="adv"/></r></p></e>
+    <e><p><l>notablement<s n="adv"/></l><r>notevolmente<s n="adv"/></r></p></e>
+    <e><p><l>novament<s n="adv"/></l><r>novamente<s n="adv"/></r></p></e>
+    <e><p><l>particularment<s n="adv"/></l><r>particularmente<s n="adv"/></r></p></e>
+    <e><p><l>principalment<s n="adv"/></l><r>principalmente<s n="adv"/></r></p></e>
+    <e><p><l>probablement<s n="adv"/></l><r>prubabilmente<s n="adv"/></r></p></e>
+    <e><p><l>ràpidament<s n="adv"/></l><r>rapidamente<s n="adv"/></r></p></e>
+    <e><p><l>rarament<s n="adv"/></l><r>raramente<s n="adv"/></r></p></e>
+    <e><p><l>recentment<s n="adv"/></l><r>recentemente<s n="adv"/></r></p></e>
+    <e><p><l>respectivament <s n="adv"/></l><r>rispettivamente<s n="adv"/></r></p></e>
+    <e><p><l>solament<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
+    <e><p><l>especialment<s n="adv"/></l><r>specialmente<s n="adv"/></r></p></e>
+    <e><p><l>històricament<s n="adv"/></l><r>storicamente<s n="adv"/></r></p></e>
+    <e><p><l>successivament<s n="adv"/></l><r>successivamente<s n="adv"/></r></p></e>
+    <e><p><l>oficialment<s n="adv"/></l><r>ufficialmente<s n="adv"/></r></p></e>
+    <e><p><l>verticalment<s n="adv"/></l><r>verticalmente<s n="adv"/></r></p></e>
 
 
     <!-- SECTION: Verbs -->
